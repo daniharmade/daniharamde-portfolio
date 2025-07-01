@@ -6,7 +6,7 @@ import Particles from '@/components/particles';
 import Link from 'next/link';
 
 const socialLinks = [
-  { name: 'GitHub', icon: Github, href: 'https://github.com/daniharamde' },
+  { name: 'GitHub', icon: Github, href: 'https://github.com/daniharmade' },
   { name: 'X (Twitter)', icon: Twitter, href: 'https://twitter.com/daniharmade' },
   {
     name: 'LinkedIn',

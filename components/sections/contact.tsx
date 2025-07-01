@@ -11,6 +11,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/components/ui/use-toast';
+import { Phone } from 'lucide-react';
 import {
   Form,
   FormControl,
@@ -110,12 +111,14 @@ export default function Contact() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-primary-orange" />
-                  <span>daniharamde@gmail.com</span>
+                  <a href="mailto:daniharmade@gmail.com">
+                    <span>daniharmade@gmail.com</span>
+                  </a>
                 </div>
-                {/* <div className="flex items-center space-x-3">
+                <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-primary-orange" />
-                  <span>+1 (555) 123-4567</span>
-                </div> */}
+                  <span>+62 851-8336-3414</span>
+                </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-primary-orange" />
                   <span>Pekanbaru, Indonesia</span>

@@ -24,11 +24,11 @@ export const metadata: Metadata = {
     'android development',
     'portfolio',
   ],
-  authors: [{ name: 'Dani Haramde' }],
+  authors: [{ name: 'Dani Harmade' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://daniharmade.github.io',
+    url: 'https://daniharmade.vercel.app/',
     title: 'Dani Harmade | Software Engineer',
     description:
       'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack & android development',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: 'Dani Harmade | Software Engineer',
     description:
       'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack  & android development',
-    creator: '@daniharamde',
+    creator: '@daniharmade',
     images: [
       {
         url: Banner.src,
@@ -63,11 +63,11 @@ export const metadata: Metadata = {
   applicationName: 'Dani Harmade Portfolio',
   category: 'Software Engineer',
   colorScheme: 'light dark',
-  metadataBase: new URL('https://daniharmade.github.io'),
+  metadataBase: new URL('https://daniharmade.vercel.app/'),
   themeColor: '#ea580c',
   creator: 'Dani Harmade',
   alternates: {
-    canonical: 'https://daniharmade.github.io',
+    canonical: 'https://daniharmade.vercel.app/',
   },
   publisher: 'Dani Harmade',
   referrer: 'no-referrer',
