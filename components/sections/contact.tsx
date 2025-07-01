@@ -25,7 +25,7 @@ import { contactFormSchema } from '@/lib/validations/contact';
 
 type ContactFormValues = z.infer<typeof contactFormSchema>;
 // Replace with your form submission endpoint
-const FORM_ENDPOINT = 'https://formspree.io/f/xzzbdnpw';
+const FORM_ENDPOINT = 'https://formspree.io/f/xrbkjdwr';
 
 export default function Contact() {
   const [ref, inView] = useInView({
