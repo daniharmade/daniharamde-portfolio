@@ -40,8 +40,8 @@ export const WORK_EXPERIENCES = [
     ],
   },
   {
-    title: `PT Telkom Indonesia (Persero) Tbk`,
-    company: `Nomura Research Institute`,
+    title: `Customer Relationship Management`,
+    company: `PT Telkom Indonesia (Persero) Tbk`,
     period: `July - December 2021`,
     location: `Pekanbaru, Indonesia`,
     type: `Internship`,
