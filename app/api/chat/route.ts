@@ -1,8 +1,6 @@
 import { streamText, convertToCoreMessages } from 'ai';
-
 import { createVertex } from '@ai-sdk/google-vertex';
 import { WORK_EXPERIENCES, PROJECTS } from '@/app/constants';
-import { ratelimit } from '@/lib/rate-limit';
 import { NextResponse } from 'next/server';
 import xss from 'xss';
 
@@ -19,9 +17,7 @@ const vertex = createVertex({
   location: process.env.GOOGLE_REGION ?? 'us-central1',
   googleAuthOptions: {
     credentials: JSON.parse(
-      Buffer.from(process.env.GOOGLE_CREDENTIALS ?? '{}', 'base64').toString(
-        'utf-8'
-      )
+      Buffer.from(process.env.GOOGLE_CREDENTIALS ?? '{}', 'base64').toString('utf-8')
     ),
   },
 });
@@ -84,28 +80,7 @@ You should:
 Remember: You represent Dani professionally.`;
 
 export async function POST(req: Request) {
-  const identifier = req.headers.get('x-forwarded-for') || 'unknown';
-
   try {
-    const { success, limit, remaining } = await ratelimit.limit(
-      `route:chat:${identifier}`
-    );
-
-    console.log({
-      success,
-      limit,
-      remaining,
-      identifier,
-    });
-
-    if (!success) {
-      return new NextResponse(
-        `You have exceeded the rate limit. You can try again in later.`,
-        { status: 429 }
-      );
-    }
-
-    // Your route implementation
     let { messages } = (await req.json()) as { messages: Array<UIMessage> };
 
     messages = messages.map((message) => {
@@ -129,7 +104,7 @@ export async function POST(req: Request) {
 
     return result.toDataStreamResponse();
   } catch (error) {
-    console.error('Rate limiting error:', error);
+    console.error('Chat error:', error);
     return new NextResponse('Internal server error', { status: 500 });
   }
 }
