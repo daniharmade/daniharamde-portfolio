@@ -59,7 +59,7 @@ export default function Hero() {
               }
             >
               <Download className="mr-2 h-4 w-4" />
-              Download Resume
+              Curriculum Vitae (CV)
             </Button>
             <Button
               size="lg"
