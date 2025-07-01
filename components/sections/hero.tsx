@@ -31,7 +31,8 @@ export default function Hero() {
         >
           <div className="text-4xl md:text-6xl font-bold">
             <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-400 leading-tight">
-              Software Engineering
+              Haloo, I'm{' '}
+              <span className="text-primary-orange">Dani Harmade</span>
             </h1>
           </div>
 
@@ -41,7 +42,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
           >
-            6th-semester Information Systems student with knowledge in PHP, JavaScript, Kotlin, Python, Jetpack Compose, Node.js, Flask and Laravel. Enthusiastic about pursuing a career as a <span className="text-primary-orange font-semibold">Software Engineering</span>.
+            Information System student with knowledge in PHP, JavaScript, Kotlin, Python, Jetpack Compose, Node.js, Flask and Laravel. Enthusiastic about pursuing a career as a <span className="text-primary-orange font-semibold">Software Engineer</span>.
           </motion.p>
 
           <motion.div

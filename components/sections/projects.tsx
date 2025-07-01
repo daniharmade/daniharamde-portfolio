@@ -113,10 +113,9 @@ const ProjectCarousel = ({
             key={dotIndex}
             onClick={() => scrollTo(dotIndex)}
             className={`h-1.5 rounded-full transition-all duration-300 
-              ${
-                selectedIndex === dotIndex
-                  ? 'w-3 bg-primary-orange'
-                  : 'w-1.5 bg-primary-orange/50 hover:bg-primary-orange'
+              ${selectedIndex === dotIndex
+                ? 'w-3 bg-primary-orange'
+                : 'w-1.5 bg-primary-orange/50 hover:bg-primary-orange'
               }`}
             aria-label={`Go to slide ${dotIndex + 1}`}
           />
@@ -157,19 +156,21 @@ const Projects = () => {
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
               <Card className="overflow-hidden h-full hover:shadow-lg transition-all duration-300 hover:border-primary-orange/50 group">
-                <ProjectCarousel
-                  images={project.images}
-                  title={project.title}
-                  delay={project.carouselDelay}
-                />
+                <div className="relative aspect-video">
+                  <Image
+                    src={project.images[0]}
+                    alt={`${project.title} screenshot`}
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
 
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2 group-hover:text-primary-orange transition-colors">
                     {project.title}
                   </h3>
-                  <p className="text-muted-foreground mb-4">
-                    {project.description}
-                  </p>
+                  <p className="text-muted-foreground mb-4">{project.description}</p>
 
                   <div className="flex flex-wrap gap-2 mb-6">
                     {project.techStack.map((tech, techIndex) => (

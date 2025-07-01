@@ -5,7 +5,7 @@ import { useTheme } from 'next-themes';
 import { Button } from '@/components/ui/button';
 import {
   Sheet,
-  SheetContent,
+SheetContent,
   SheetTrigger,
   SheetHeader,
   SheetTitle,
@@ -17,8 +17,9 @@ import Image from 'next/image';
 const navigation = [
   { name: 'About', href: '#about' },
   { name: 'Projects', href: '#projects' },
-  { name: 'Skills', href: '#skills' },
-  { name: 'Experience', href: '#experience' },
+  { name: 'Certificate', href: '#certifications' },
+  { name: 'Work', href: '#workExperience' },
+  { name: 'Bootcamp', href: '#bootcampExperience' },
   { name: 'Contact', href: '#contact' },
 ];
 

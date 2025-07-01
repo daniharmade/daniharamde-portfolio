@@ -7,7 +7,7 @@ import { Footer } from '@/components/footer';
 import { GoToTop } from '@/components/go-to-top';
 import { Toaster } from '@/components/ui/toaster';
 import { ScrollProgress } from '@/components/scroll-progress';
-import Banner from '../public/bannerp.jpeg';
+import Banner from '../public/bannerp.png';
 import { Analytics } from '@vercel/analytics/react';
 import { ChatBot } from '@/components/chat-bot';
 
@@ -18,58 +18,59 @@ export const metadata: Metadata = {
   description:
     'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack development',
   keywords: [
-    'Taufik Pragusga',
+    'Dani Harmade',
     'software engineer',
     'full-stack developer',
     'web development',
+    'android development',
     'portfolio',
   ],
-  authors: [{ name: 'Taufik Pragusga' }],
+  authors: [{ name: 'Dani Haramde' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://pragusga.com',
-    title: 'Taufik Pragusga | Software Engineer',
+    url: 'https://daniharmade.github.io',
+    title: 'Dani Harmade | Software Engineer',
     description:
-      'Professional portfolio of Taufik Pragusga, a software engineer specializing in full-stack development',
-    siteName: 'Taufik Pragusga Portfolio',
+      'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack & android development',
+    siteName: 'Dani Harmade Portfolio',
     images: [
       {
         url: Banner.src,
         width: 1200,
         height: 630,
-        alt: 'Taufik Pragusga - Software Engineer',
+        alt: 'Dani Harmade - Software Engineer',
       },
     ],
     countryName: 'Indonesia',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Taufik Pragusga | Software Engineer',
+    title: 'Dani Harmade | Software Engineer',
     description:
-      'Professional portfolio of Taufik Pragusga, a software engineer specializing in full-stack development',
-    creator: '@pragusga',
+      'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack  & android development',
+    creator: '@daniharamde',
     images: [
       {
         url: Banner.src,
         width: 1200,
         height: 630,
-        alt: 'Taufik Pragusga - Software Engineer',
+        alt: 'Dani Harmade - Software Engineer',
       },
     ],
   },
   viewport: 'width=device-width, initial-scale=1.0',
-  abstract: 'Professional portfolio of Taufik Pragusga',
-  applicationName: 'Taufik Pragusga Portfolio',
+  abstract: 'Professional portfolio of Dani Harmade',
+  applicationName: 'Dani Harmade Portfolio',
   category: 'Software Engineer',
   colorScheme: 'light dark',
-  metadataBase: new URL('https://pragusga.com'),
+  metadataBase: new URL('https://daniharmade.github.io'),
   themeColor: '#ea580c',
-  creator: 'Taufik Pragusga',
+  creator: 'Dani Harmade',
   alternates: {
-    canonical: 'https://v0.pragusga.com',
+    canonical: 'https://daniharmade.github.io',
   },
-  publisher: 'Taufik Pragusga',
+  publisher: 'Dani Harmade',
   referrer: 'no-referrer',
 };
 
@@ -80,6 +81,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <meta name="theme-color" content="#ea580c" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -100,3 +105,4 @@ export default function RootLayout({
     </html>
   );
 }
+

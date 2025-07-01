@@ -6,18 +6,18 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { MapPin, Calendar, ChevronDown, ChevronUp } from 'lucide-react';
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { EXPERIENCES } from '@/app/constants';
+import { WORK_EXPERIENCES } from '@/app/constants';
 
 const INITIAL_DISPLAY_COUNT = 4;
 
-const Experience = () => {
+const Work = () => {
   const [showAll, setShowAll] = useState(false);
   const displayedExperiences = showAll
-    ? EXPERIENCES
-    : EXPERIENCES.slice(0, INITIAL_DISPLAY_COUNT);
+    ? WORK_EXPERIENCES
+    : WORK_EXPERIENCES.slice(0, INITIAL_DISPLAY_COUNT);
 
   return (
-    <section id="experience" className="py-20 bg-secondary/30">
+    <section id="workExperience" className="py-20 bg-secondary/30">
       <div className="container px-4 mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ const Experience = () => {
           transition={{ duration: 0.5 }}
           className="text-3xl font-bold text-center mb-12"
         >
-          Experience
+          <span className="text-primary-orange">Work</span> Experience
         </motion.h2>
 
         <div className="space-y-8">
@@ -91,7 +91,7 @@ const Experience = () => {
           </AnimatePresence>
         </div>
 
-        {EXPERIENCES.length > INITIAL_DISPLAY_COUNT && (
+        {WORK_EXPERIENCES.length > INITIAL_DISPLAY_COUNT && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -122,4 +122,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Work;

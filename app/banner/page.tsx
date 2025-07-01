@@ -33,7 +33,7 @@ export default function BannerPage() {
         >
           <div className="w-32 h-32 rounded-full overflow-hidden">
             <img
-              src="https://github.com/pragusga25.png"
+              src="https://github.com/daniharmade.png"
               alt="Profile"
               className="w-full h-full object-cover"
             />
@@ -49,11 +49,11 @@ export default function BannerPage() {
         >
           <div className="text-6xl font-bold mb-4">
             <h1 className="bg-gradient-to-r from-primary-orange to-orange-600 text-transparent bg-clip-text leading-tight">
-              Taufik Pragusga
+              Dani Harmade
             </h1>
           </div>
           <p className="text-2xl text-muted-foreground">
-            Full-Stack Software Engineer
+            Software Engineer
           </p>
         </motion.div>
 
