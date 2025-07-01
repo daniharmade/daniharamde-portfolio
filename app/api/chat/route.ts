@@ -83,12 +83,10 @@ export async function POST(req: Request) {
   try {
     let { messages } = (await req.json()) as { messages: Array<UIMessage> };
 
-    messages = messages.map((message) => {
-      return {
-        ...message,
-        content: xss(message.content),
-      };
-    });
+    messages = messages.map((message) => ({
+      ...message,
+      content: xss(message.content),
+    }));
 
     console.log(
       'messages: ',
