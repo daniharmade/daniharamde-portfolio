@@ -169,7 +169,7 @@ export const CERTIFICATIONS = [
     title: "Intermediate Web Development",
     issuedBy: "Dicoding",
     date: "May 2025",
-    images: ["/certificate/Dicoding-AndroidIntermediate.jpg"],
+    images: ["/certificate/Dicoding-WebIntermediate.jpg"],
     certificateUrl: "https://www.dicoding.com/certificates/KEXL7RGV0XG2",
   },
   {
