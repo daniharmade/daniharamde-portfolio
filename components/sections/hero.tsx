@@ -32,7 +32,7 @@ export default function Hero() {
           <div className="text-4xl md:text-6xl font-bold">
             <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-400 leading-tight">
               Haloo, I'm{' '}
-              <span className="text-primary-orange">Dani Harmade</span>
+              <span className="text-primary-orange">Dani</span>
             </h1>
           </div>
 
