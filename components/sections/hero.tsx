@@ -55,7 +55,7 @@ export default function Hero() {
               size="lg"
               className="bg-orange-600 hover:bg-orange-700 resume-btn"
               onClick={() =>
-                window.open('/CV.pdf', '_blank')
+                window.open('/CV - Dani Harmade.pdf', '_blank')
               }
             >
               <Download className="mr-2 h-4 w-4" />
