@@ -64,6 +64,7 @@ export const BOOTCAMP_EXPERIENCES = [
     current: false,
     responsibilities: [
       `Selected as one of 3,157 accepted participants from a pool of over 60,000 applicants.`,
+      `Graduated with Distinction (Top 10% in the Learning Path) with a clean record.`,
       `Recognized among the top 600 most active students in Instructor-Led Training sessions for tech and soft skills.`,
       `Ranked among the top 5 students with the highest engagement in weekly consultation sessions.`,
       `Developed a culinary exploration website as a Capstone Project Foodinary.`,
