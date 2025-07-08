@@ -152,7 +152,14 @@ export const PROJECTS = [
 
 export const CERTIFICATIONS = [
   {
-    title: "Certificate of Completion - Mobile Development",
+    title: "Certificate of Completion - Full Stack Developer",
+    issuedBy: "Coding Camp powered by DBS Foundation",
+    date: "July 2025",
+    images: ["/certificate/CodingCamp.jpg"],
+    certificateUrl: "https://www.linkedin.com/in/daniharmade/overlay/1751960694113/single-media-viewer/?profileId=ACoAAD-vdDIBLHnKYAysM3VwrpW4d9l0lRF6pts",
+  },
+  {
+    title: "Certificate of Completion - Android Developer",
     issuedBy: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
     date: "January 2025",
     images: ["/certificate/BangkitAcademy.jpg"],
