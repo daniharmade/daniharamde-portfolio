@@ -157,21 +157,21 @@ export const CERTIFICATIONS = [
     issuedBy: "Coding Camp powered by DBS Foundation",
     date: "July 2025",
     images: ["/certificate/CodingCamp.jpg"],
-    certificateUrl: "https://www.linkedin.com/in/daniharmade/overlay/1751960694113/single-media-viewer/?profileId=ACoAAD-vdDIBLHnKYAysM3VwrpW4d9l0lRF6pts",
+    certificateUrl: "/pdf/DBSFCodingCamp.pdf",
   },
   {
     title: "Certificate of Completion - Android Developer",
     issuedBy: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
     date: "January 2025",
     images: ["/certificate/BangkitAcademy.jpg"],
-    certificateUrl: "https://www.linkedin.com/in/daniharmade/details/certifications/1739027684425/single-media-viewer/?profileId=ACoAAD-vdDIBLHnKYAysM3VwrpW4d9l0lRF6pts",
+    certificateUrl: "/pdf/BangkitAcademy.pdf",
   },
   {
     title: "Junior Web Developer",
     issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
     date: "November 2024",
     images: ["/certificate/BNSP-JWD.jpg"],
-    certificateUrl: "https://www.linkedin.com/in/daniharmade/details/certifications/1733584715798/single-media-viewer/?profileId=ACoAAD-vdDIBLHnKYAysM3VwrpW4d9l0lRF6pts",
+    certificateUrl: "/pdf/JuniorWebDeveloper.pdf",
   },
   {
     title: "Big Data Analysis for Water-related Applications",
@@ -241,6 +241,6 @@ export const CERTIFICATIONS = [
     issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
     date: "September 2023",
     images: ["/certificate/BNSP-JNA.jpg"],
-    certificateUrl: "https://www.linkedin.com/in/daniharmade/details/certifications/1704269064731/single-media-viewer/?profileId=ACoAAD-vdDIBLHnKYAysM3VwrpW4d9l0lRF6pts",
+    certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
   },
 ];
