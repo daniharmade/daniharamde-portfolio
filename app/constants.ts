@@ -181,13 +181,6 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/TBI.pdf",
   },
   {
-    title: "Big Data Analysis for Water-related Applications",
-    issuedBy: "United Nations University",
-    date: "July 2025",
-    images: ["/certificate/Big Data Analysis for Water-related Applications.jpg"],
-    certificateUrl: "https://lc.unu.edu/certificates/a32d1755f1eb4ff9a17de8aa83e744c4",
-  },
-  {
     title: "Intermediate Web Development",
     issuedBy: "Dicoding",
     date: "May 2025",
@@ -200,6 +193,13 @@ export const CERTIFICATIONS = [
     date: "December 2024",
     images: ["/certificate/Dicoding-AndroidIntermediate.jpg"],
     certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
+  },
+    {
+    title: "Big Data Analysis for Water-related Applications",
+    issuedBy: "United Nations University",
+    date: "July 2025",
+    images: ["/certificate/Big Data Analysis for Water-related Applications.jpg"],
+    certificateUrl: "https://lc.unu.edu/certificates/a32d1755f1eb4ff9a17de8aa83e744c4",
   },
   {
     title: "Implementation Machine Learning for Android",
