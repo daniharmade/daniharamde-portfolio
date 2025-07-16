@@ -174,6 +174,13 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/JuniorWebDeveloper.pdf",
   },
   {
+    title: "English for Business Communication",
+    issuedBy: "The British Institute (TBI)",
+    date: "June 2025",
+    images: ["/certificate/TBI.jpg"],
+    certificateUrl: "/pdf/TBI.pdf",
+  },
+  {
     title: "Big Data Analysis for Water-related Applications",
     issuedBy: "United Nations University",
     date: "July 2025",
