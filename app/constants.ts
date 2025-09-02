@@ -153,14 +153,14 @@ export const PROJECTS = [
 
 export const CERTIFICATIONS = [
   {
-    title: "Certificate of Completion - Full Stack Developer",
+    title: "Specializing in Front-End and Back End Developer",
     issuedBy: "Coding Camp powered by DBS Foundation",
     date: "July 2025",
     images: ["/certificate/CodingCamp.jpg"],
     certificateUrl: "/pdf/DBSFCodingCamp.pdf",
   },
   {
-    title: "Certificate of Completion - Android Developer",
+    title: "Specializing in Front Mobile Development",
     issuedBy: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
     date: "January 2025",
     images: ["/certificate/BangkitAcademy.jpg"],
@@ -174,18 +174,18 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/JuniorWebDeveloper.pdf",
   },
   {
-    title: "English for Business Communication",
-    issuedBy: "The British Institute (TBI)",
-    date: "June 2025",
-    images: ["/certificate/TBI.jpg"],
-    certificateUrl: "/pdf/TBI.pdf",
+    title: "Junior Web Developer - Bootcamp",
+    issuedBy: "Kementerian Komunikasi dan Informatika",
+    date: "October 2024",
+    images: ["/certificate/VSGA-JWD.png"],
+    certificateUrl: "/pdf/VSGA-JWD.pdf",
   },
   {
-    title: "Intermediate Web Development",
-    issuedBy: "Dicoding",
+    title: "Software Engineer Internship",
+    issuedBy: "Linkupcareer.id",
     date: "May 2025",
-    images: ["/certificate/Dicoding-WebIntermediate.jpg"],
-    certificateUrl: "https://www.dicoding.com/certificates/KEXL7RGV0XG2",
+    images: ["/certificate/Internship-Linkupcareer.png"],
+    certificateUrl: "/pdf/Internship-Linkupcareer.pdf",
   },
   {
     title: "Intermediate Android Development",
@@ -195,6 +195,34 @@ export const CERTIFICATIONS = [
     certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
   },
     {
+    title: "Data Engineering Professional Certification",
+    issuedBy: "Rapidminer",
+    date: "Jul 2023",
+    images: ["/certificate/RapidMiner.png"],
+    certificateUrl: "/pdf/RapidMiner.pdf",
+  },
+  {
+    title: "Intermediate Web Development",
+    issuedBy: "Dicoding",
+    date: "May 2025",
+    images: ["/certificate/Dicoding-WebIntermediate.jpg"],
+    certificateUrl: "https://www.dicoding.com/certificates/KEXL7RGV0XG2",
+  },
+  {
+    title: "Junior Network Administrator - Bootcamp",
+    issuedBy: "Kementerian Komunikasi dan Informatika",
+    date: "August 2023",
+    images: ["/certificate/VSGA-JNA.png"],
+    certificateUrl: "/pdf/VSGA-JNA.pdf",
+  },
+  {
+    title: "English for Business Communication",
+    issuedBy: "The British Institute (TBI)",
+    date: "June 2025",
+    images: ["/certificate/TBI.jpg"],
+    certificateUrl: "/pdf/TBI.pdf",
+  },
+  {
     title: "Big Data Analysis for Water-related Applications",
     issuedBy: "United Nations University",
     date: "July 2025",
@@ -249,5 +277,11 @@ export const CERTIFICATIONS = [
     date: "September 2023",
     images: ["/certificate/BNSP-JNA.jpg"],
     certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
+  },
+  {
+    title: "Certified Developer",
+    issuedBy: "Alibaba Cloud",
+    date: "September 2022",
+    images: ["/certificate/Alibaba-Developer.jpg"],
   },
 ];
