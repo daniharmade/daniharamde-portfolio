@@ -160,7 +160,7 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/DBSFCodingCamp.pdf",
   },
   {
-    title: "Specializing in Front Mobile Development",
+    title: "Specializing in Mobile Development",
     issuedBy: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
     date: "January 2025",
     images: ["/certificate/BangkitAcademy.jpg"],
