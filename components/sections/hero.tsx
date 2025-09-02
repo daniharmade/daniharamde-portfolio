@@ -42,8 +42,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
           >
-            {/* Information System student with knowledge in PHP, JavaScript, Kotlin, Python, Jetpack Compose, Node.js, Flask and Laravel. Enthusiastic about pursuing a career as a <span className="text-primary-orange font-semibold">Software Engineer</span>. */}
-            I am a <span className="text-primary-orange font-semibold">Software Engineer</span> with a BNSP Certification as a Junior Web Developer, recognized as a Distinction Graduate of Bangkit Academy 2024 and DBS Foundation Coding Camp 2025.
+            Information System student with knowledge in PHP, JavaScript, Kotlin, Python, Jetpack Compose, Node.js, Flask and Laravel. Enthusiastic about pursuing a career as a <span className="text-primary-orange font-semibold">Software Engineer</span>.
           </motion.p>
 
           <motion.div
