@@ -21,6 +21,19 @@ export default function About() {
           className="glass rounded-2xl p-8 md:p-12"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="relative w-64 md:w-96 mx-auto">
+              <div className="aspect-square relative rounded-full overflow-hidden shine-border">
+                <Image
+                  src="/dani.png"
+                  alt="Foto"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
+              <div className="absolute inset-0 bg-gradient-to-tr from-primary-orange/10 to-transparent rounded-full animate-pulse" />
+            </div>
+
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
                 About <span className="text-primary-orange">Me</span>
@@ -39,18 +52,6 @@ export default function About() {
               </div>
             </div>
 
-            <div className="relative">
-              <div className="aspect-square relative rounded-full overflow-hidden shine-border">
-                <Image
-                  src="/dani.png"
-                  alt="Foto"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-tr from-primary-orange/10 to-transparent rounded-full animate-pulse" />
-            </div>
           </div>
         </motion.div>
       </div>
