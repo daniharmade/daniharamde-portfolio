@@ -320,7 +320,7 @@ export const AWARDS = [
   },
   {
     title: "Top 10% Best Android Developer Graduate",
-    issuedBy: "Bangkit Academy led by Google, Tokopedia, Gojek, & Travelok",
+    issuedBy: "Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka",
     issueDate: "July 2025",
     description:
       "Achieved Distinction Graduate status, recognized as a top 10% performer among 1,150 participants in the Android Developer learning path of the Mobile Development track, Bangkit Academy 2024 Batch 2.",
