@@ -42,7 +42,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
           >
-            Information System student with knowledge in PHP, JavaScript, Kotlin, Python, Jetpack Compose, Node.js, Flask and Laravel. Enthusiastic about pursuing a career as a <span className="text-primary-orange font-semibold">Software Engineer</span>.
+            Information Systems student with 1 year of experience in web (PHP & JavaScript) and Android (Kotlin) development. Passionate about creating innovative solutions and open to roles as <span className="text-primary-orange font-semibold">Software Engineer</span>.
           </motion.p>
 
           <motion.div

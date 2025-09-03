@@ -40,6 +40,21 @@ export const WORK_EXPERIENCES = [
     ],
   },
   {
+    title: `Software Engineer`,
+    company: `Information System Department at UIN Suska Riau`,
+    period: `January 2024 - August 2024`,
+    location: `Pekanbaru, Indonesia`,
+    type: `Project-Based Internship`,
+    current: false,
+    responsibilities: [
+      `Developed the Laboratory Assistant Registration System (LARIS) as part of a practical work internship project.`,
+      `Conducted a feasibility test for the Laboratory Assistant Registration System (LARIS) using the PIECES method, involving 41 respondents (students and lecturers), and achieved an average score of 83.23% (Highly Feasible).`,
+      `Performed system analysis and design using Object-Oriented Analysis and Design (OOAD), including Use Case Diagram, Activity Diagram, Sequence Diagram, Class Diagram, Database Design, Menu Structure, and Interface Design.`,
+      `Developed system with Laravel 10.`,
+      `Tested system performance through User Acceptance Testing (UAT) with 20 respondents, obtaining a score of 4.19 (Agree) in terms of usability, efficiency, and design.`,
+    ],
+  },
+  {
     title: `Customer Relationship Management`,
     company: `PT Telkom Indonesia (Persero) Tbk`,
     period: `July - December 2021`,

@@ -44,7 +44,7 @@ export default function About() {
                   <span className="text-primary-orange font-semibold">
                     Dani Harmade <span> </span>
                   </span>
-                  6th-semester Information System student with experience as an Android and Full Stack Developer. Selected for top programs like Bangkit Academy (Distinction Graduate, Mobile Development) and DBS Foundation Coding Camp. Certified as a BNSP Junior Web Developer. Skilled in PHP, JavaScript, Kotlin, Laravel, and Jetpack Compose.
+                  7th-semester Information System student with experience as an Android and Full Stack Developer. Selected for top programs like Bangkit Academy (Distinction Graduate, Mobile Development) and DBS Foundation Coding Camp. Certified as a BNSP Junior Web Developer. Skilled in PHP, JavaScript, Kotlin, Laravel, and Jetpack Compose.
                 </p>
                 <p>
                   I’ve built a digital lab assistant registration system and an AI-powered skin disease detection app. Active in tech communities such as Google Developer Students Club. I believe technology is a tool for real, sustainable impact.
