@@ -16,10 +16,11 @@ import Image from 'next/image';
 
 const navigation = [
   { name: 'About', href: '#about' },
-  { name: 'Projects', href: '#projects' },
+  { name: 'Project', href: '#projects' },
   { name: 'Certificate', href: '#certifications' },
   { name: 'Work', href: '#workExperience' },
   { name: 'Bootcamp', href: '#bootcampExperience' },
+  { name: 'Award', href: '#awards' },
   { name: 'Contact', href: '#contact' },
 ];
 

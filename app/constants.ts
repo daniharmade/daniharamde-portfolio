@@ -209,7 +209,7 @@ export const CERTIFICATIONS = [
     images: ["/certificate/Dicoding-AndroidIntermediate.jpg"],
     certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
   },
-    {
+  {
     title: "Data Engineering Professional Certification",
     issuedBy: "Rapidminer",
     date: "Jul 2023",
@@ -298,5 +298,32 @@ export const CERTIFICATIONS = [
     issuedBy: "Alibaba Cloud",
     date: "September 2022",
     images: ["/certificate/Alibaba-Developer.jpg"],
+  },
+];
+
+export const AWARDS = [
+  {
+    title: "Awardee of Bank Indonesia Scholarship 2025",
+    issuedBy: "Bank Indonesia",
+    issueDate: "August 2025",
+    description:
+      "Recipient of the Bank Indonesia Scholarship 2025, awarded for academic excellence, leadership, and social contribution. Active GenBI member in community service, education, and empowerment programs.",
+    // certificateUrl: "/pdf/DBSFCodingCamp.pdf",
+  },
+  {
+    title: "Top 10% Best Full Stack Developer Graduate",
+    issuedBy: "Coding Camp powered by DBS Foundation",
+    issueDate: "July 2025",
+    description:
+      "Achieved Distinction Graduate status, recognized as a top 10% performer among 1,610 participants in the Full Stack Developer learning path, Coding Camp powered by DBS Foundation 2025.",
+    certificateUrl: "https://www.youtube.com/watch?v=k-iDDXPWuuI",
+  },
+  {
+    title: "Top 10% Best Android Developer Graduate",
+    issuedBy: "Bangkit Academy led by Google, Tokopedia, Gojek, & Travelok",
+    issueDate: "July 2025",
+    description:
+      "Achieved Distinction Graduate status, recognized as a top 10% performer among 1,150 participants in the Android Developer learning path of the Mobile Development track, Bangkit Academy 2024 Batch 2.",
+    certificateUrl: "https://www.youtube.com/watch?v=XsncfWizpQY",
   },
 ];
