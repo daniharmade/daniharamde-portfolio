@@ -294,6 +294,13 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
   },
   {
+    title: "Test of Arabic as a Foreign Language (TOAFL)",
+    issuedBy: "Lisanul Arab",
+    date: "September 2025",
+    images: ["/certificate/TOAFL.jpg"],
+    certificateUrl: "/pdf/TOAFL.pdf",
+  },
+  {
     title: "Certified Developer",
     issuedBy: "Alibaba Cloud",
     date: "September 2022",
