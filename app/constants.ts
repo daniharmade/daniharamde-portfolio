@@ -203,6 +203,13 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/Internship-Linkupcareer.pdf",
   },
   {
+    title: "Green Digital Certificate 2025",
+    issuedBy: "INCO Academy",
+    date: "September 2025",
+    images: ["/certificate/IncooAcademy.png"],
+    certificateUrl: "https://learning.inco-group.co/admin/tool/certificate/index.php?code=9417713479DH",
+  },
+  {
     title: "Intermediate Android Development",
     issuedBy: "Dicoding",
     date: "December 2024",
