@@ -322,7 +322,7 @@ export const AWARDS = [
     issueDate: "August 2025",
     description:
       "Recipient of the Bank Indonesia Scholarship 2025, awarded for academic excellence, leadership, and social contribution. Active GenBI member in community service, education, and empowerment programs.",
-    // certificateUrl: "/pdf/DBSFCodingCamp.pdf",
+    certificateUrl: "/pdf/BeasiswaBI.pdf",
   },
   {
     title: "Top 10% Best Full Stack Developer Graduate",
