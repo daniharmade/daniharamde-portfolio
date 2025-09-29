@@ -341,3 +341,54 @@ export const AWARDS = [
     certificateUrl: "https://www.youtube.com/watch?v=XsncfWizpQY",
   },
 ];
+
+export const EDUCATION_HISTORY = [
+  {
+    university: "Universitas Islam Negeri Suska Riau",
+    major: "Information Systems",
+    degree: "Bachelor of Computer",
+    gpa: "3.88/4.00",
+    period: "2022 - Present (Expected Graduation: 2026)",
+    location: "Pekanbaru, Riau",
+    activities: [
+      "Head of Publication and Socialization Division in GenBI UIN Suska Riau.",
+      "Awardee of Bank Indonesia Scholarship 2025.",
+      "Laboratory Assistant and Website Administrator Information System Department.",
+      "Relevant Coursework: Algorithm and Programming, Object Oriented Programming, Management of Database, Human-Computer Interaction, Web Programming, Information System Analysis, Software Engineering, Geographic Information Systems (GIS), and Intelligent Information System.",
+    ]
+  },
+];
+
+export const ORGANIZATION_HISTORY = [
+  {
+    name: "Generasi Baru Indonesia (GenBI) UIN Suska Riau",
+    division: "Publication and Socialization",
+    role: "Head of Division",
+    period: "August 2025 - Present",
+    jobdesk: [
+      "Komisariat Universitas Islam Negeri Sultan Syarif Kasim Riau",
+    ],
+  },
+  {
+    name: "Information System Networking Club Research UIN Suska Riau",
+    division: "Research and Scientific Publications & Website Administrator",
+    role: "Staff",
+    period: "Dec 2022 - Jul 2025",
+    jobdesk: [
+      "Studying and deepening knowledge of computer networks as well as web and application development through various activities and research within the club.",
+      "Participating in research initiatives and scientific publications related to information systems and networking.",
+      "Assisting in organizing research activities, discussions, and the publication of technical papers within the club.",
+      "Managing the website of the Information System Networking Club (ISNC) Research at UIN Suska Riau.",
+    ],
+  },
+  {
+    name: "Google Developer Student Clubs UIN Suska Riau",
+    division: "Learner",
+    role: "Member",
+    period: "Nov 2022 - Oct 2025",
+    jobdesk: [
+      "Actively participating in activities and events of the Google Developer Student Clubs.",
+      "Coordinating with peers on technical projects and initiatives to enhance development and programming skills.",
+    ],
+  },
+];

@@ -6,16 +6,20 @@ import Award from '@/components/sections/award';
 import Projects from '@/components/sections/projects';
 import Certifications from '@/components/sections/certificate';
 import Contact from '@/components/sections/contact';
+import Education from '@/components/sections/education';
+import Organization from '@/components/sections/organization';
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
       <About />
-      <Projects />
-      <Certifications />
+      <Education />
       <Work />
       <Bootcamp />
+      <Projects />
+      <Organization />
+      <Certifications />
       <Award />
       <Contact />
     </main>
