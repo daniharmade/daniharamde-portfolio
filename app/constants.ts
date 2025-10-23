@@ -203,18 +203,25 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/Internship-Linkupcareer.pdf",
   },
   {
-    title: "Green Digital Certificate 2025",
-    issuedBy: "INCO Academy",
-    date: "September 2025",
-    images: ["/certificate/IncooAcademy.png"],
-    certificateUrl: "https://learning.inco-group.co/admin/tool/certificate/index.php?code=9417713479DH",
-  },
-  {
     title: "Intermediate Android Development",
     issuedBy: "Dicoding",
     date: "December 2024",
     images: ["/certificate/Dicoding-AndroidIntermediate.jpg"],
     certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
+  },
+  {
+    title: "Design Thinking Workshop",
+    issuedBy: "Samsung Solve for Tomorrow 2025",
+    date: "Oktober 2024",
+    images: ["/certificate/sft.jpg"],
+    certificateUrl: "/pdf/sft.pdf",
+  },
+  {
+    title: "Green Digital Certificate 2025",
+    issuedBy: "INCO Academy",
+    date: "September 2025",
+    images: ["/certificate/IncooAcademy.png"],
+    certificateUrl: "https://learning.inco-group.co/admin/tool/certificate/index.php?code=9417713479DH",
   },
   {
     title: "Data Engineering Professional Certification",
@@ -236,6 +243,27 @@ export const CERTIFICATIONS = [
     date: "August 2023",
     images: ["/certificate/VSGA-JNA.png"],
     certificateUrl: "/pdf/VSGA-JNA.pdf",
+  },
+  {
+    title: "Junior Network Administrator",
+    issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
+    date: "September 2023",
+    images: ["/certificate/BNSP-JNA.jpg"],
+    certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
+  },
+  {
+    title: "CCNAv7: Enterprise Networking, Security, and Automation",
+    issuedBy: "Cisco Networking Academy",
+    date: "December 2020",
+    images: ["/certificate/Cisco.jpg"],
+    certificateUrl: "/pdf/Cisco.pdf",
+  },
+  {
+    title: "Certified Developer",
+    issuedBy: "Alibaba Cloud",
+    date: "September 2022",
+    images: ["/certificate/Alibaba-Developer.jpg"],
+    certificateUrl: "/pdf/Alibaba-Developer.pdf",
   },
   {
     title: "English for Business Communication",
@@ -294,24 +322,11 @@ export const CERTIFICATIONS = [
     certificateUrl: "https://www.dicoding.com/certificates/2VX3KJ9D4XYQ",
   },
   {
-    title: "Junior Network Administrator",
-    issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
-    date: "September 2023",
-    images: ["/certificate/BNSP-JNA.jpg"],
-    certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
-  },
-  {
     title: "Test of Arabic as a Foreign Language (TOAFL)",
     issuedBy: "Lisanul Arab",
     date: "September 2025",
     images: ["/certificate/TOAFL.jpg"],
     certificateUrl: "/pdf/TOAFL.pdf",
-  },
-  {
-    title: "Certified Developer",
-    issuedBy: "Alibaba Cloud",
-    date: "September 2022",
-    images: ["/certificate/Alibaba-Developer.jpg"],
   },
 ];
 
