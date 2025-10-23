@@ -252,7 +252,7 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
   },
   {
-    title: "CCNAv7: Enterprise Networking, Security, and Automation",
+    title: "CCNAv7: Enterprise Networking, Security, and Automation.",
     issuedBy: "Cisco Networking Academy",
     date: "December 2020",
     images: ["/certificate/Cisco.jpg"],
