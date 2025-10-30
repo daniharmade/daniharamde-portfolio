@@ -8,7 +8,7 @@ import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { AWARDS } from '@/app/constants';
 
-const INITIAL_DISPLAY_COUNT = 3;
+const INITIAL_DISPLAY_COUNT = 4;
 
 const Awards = () => {
     const [showAll, setShowAll] = useState(false);

@@ -332,6 +332,14 @@ export const CERTIFICATIONS = [
 
 export const AWARDS = [
   {
+    title: "2nd Place Winner – Scientific Poster & Final Project Competition",
+    issuedBy: "Universitas Islam Negeri Sultan Syarif Kasim Riau",
+    issueDate: "October 2025",
+    description:
+      "Won 2nd Place in the Scientific Poster & Final Project Competition at GALAKSI (Gebyar Akademik, Olahraga, dan Kesenian Sistem Informasi), held in celebration of the 23rd Anniversary of the Information Systems Study Program. The competition assessed students’ abilities to organize, visualize, and present their research or final project results in a scientific and creative manner.",
+    certificateUrl: "/pdf/Juara 2 Lomba Poster.pdf",
+  },
+  {
     title: "Awardee of Bank Indonesia Scholarship 2025",
     issuedBy: "Bank Indonesia",
     issueDate: "August 2025",
