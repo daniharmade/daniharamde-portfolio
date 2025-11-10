@@ -210,9 +210,16 @@ export const CERTIFICATIONS = [
     certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
   },
   {
+    title: "React Web Application Fundamentals",
+    issuedBy: "Dicoding",
+    date: "November 2025",
+    images: ["/certificate/Dicoding-FundamentalReact.jpg"],
+    certificateUrl: "https://www.dicoding.com/certificates/N9ZO20YGRPG5",
+  },
+  {
     title: "Learning to Build a Web Application with React",
     issuedBy: "Dicoding",
-    date: "December 2024",
+    date: "October 2025",
     images: ["/certificate/Dicoding-WebReactPemula.jpg"],
     certificateUrl: "https://www.dicoding.com/certificates/RVZKG0KOQXD5",
   },
