@@ -210,6 +210,13 @@ export const CERTIFICATIONS = [
     certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
   },
   {
+    title: "Pengoperasian Tools Generative AI",
+    issuedBy: "Kementerian Ketenagakerjaan Republik Indonesia",
+    date: "November 2025",
+    images: ["/certificate/kemenaker-blk-ai.png"],
+    certificateUrl: "/pdf/kemenaker-blk-ai.pdf",
+  },
+  {
     title: "React Web Application Fundamentals",
     issuedBy: "Dicoding",
     date: "November 2025",
@@ -226,7 +233,7 @@ export const CERTIFICATIONS = [
   {
     title: "Design Thinking Workshop",
     issuedBy: "Samsung Solve for Tomorrow 2025",
-    date: "Oktober 2024",
+    date: "October 2024",
     images: ["/certificate/sft.jpg"],
     certificateUrl: "/pdf/sft.pdf",
   },
