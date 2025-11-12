@@ -214,7 +214,7 @@ export const CERTIFICATIONS = [
     issuedBy: "Kementerian Ketenagakerjaan Republik Indonesia",
     date: "November 2025",
     images: ["/certificate/kemenaker-blk-ai.png"],
-    certificateUrl: "/pdf/kemenaker-blk-ai.pdf",
+    certificateUrl: "https://skillhub.kemnaker.go.id/sertifikat/pelatihan/99d6487c-33e5-416e-8a90-bea3665d96f3",
   },
   {
     title: "React Web Application Fundamentals",
