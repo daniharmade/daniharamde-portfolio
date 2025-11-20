@@ -136,8 +136,7 @@ export default function Hero() {
       <div
         className="absolute bottom-0 left-0 w-full h-[40vh] z-0 opacity-30 pointer-events-none"
         style={{
-          background: `linear-gradient(to top, rgba(255,87,34,0.1) 1px, transparent 1px),
-                       linear-gradient(to right, rgba(255,87,34,0.1) 1px, transparent 1px)`,
+          background: `linear-gradient(to top, rgba(255,87,34,0.1) 1px, transparent 1px), linear-gradient(to right, rgba(255,87,34,0.1) 1px, transparent 1px)`,
           backgroundSize: '40px 40px',
           transform: 'perspective(500px) rotateX(60deg) translateY(100px) scale(2)',
           maskImage: 'linear-gradient(to top, black, transparent)',
@@ -157,7 +156,7 @@ export default function Hero() {
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, repeat: Infinity, repeatType: "reverse", duration: 2 }}
+            transition={{ duration: 1, repeat: Infinity, repeatType: "reverse" }}
             className="mb-6 p-3 rounded-full border border-[rgb(255,87,34)]/30 bg-[rgb(255,87,34)]/5 backdrop-blur-md"
           >
             <Terminal className="w-6 h-6 text-[rgb(255,87,34)]" />
