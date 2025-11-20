@@ -40,13 +40,13 @@ export function GoToTop() {
           exit={{ opacity: 0, y: 20 }}
           className="fixed bottom-8 right-8 z-50"
         >
-          <Button
+          {/* <Button
             onClick={scrollToTop}
             size="icon"
             className="rounded-full bg-primary-orange hover:bg-primary-orange-dark shadow-lg"
           >
             <ArrowUp className="h-5 w-5" />
-          </Button>
+          </Button> */} 
         </motion.div>
       )}
     </AnimatePresence>

@@ -134,16 +134,16 @@ export const PROJECTS = [
   {
     title: 'Foodinary',
     description:
-      'Discover and explore diverse local and international cuisines with a clean and interactive culinary website.',
+      'Foodinary is a culinary website that allows users to discover and explore diverse local and international cuisines with a clean and interactive interface.',
     images: ['/project/foodinary.png'],
     techStack: ['JavaScript', 'IndexedDB', 'Postman', 'HTML5', 'API Integration'],
     liveDemo: 'https://foodinary.vercel.app/',
     sourceCode: 'https://github.com/foodinary-project/frontend-backend',
   },
   {
-    title: 'Dermatological AI System for Your Skin (DAISY)',
+    title: 'DAISY',
     description:
-      'AI-powered app for detecting and identifying skin diseases through smart image analysis.',
+      'Dermatological AI System for Your Skin is an AI-powered app for detecting and identifying skin diseases through smart image analysis.',
     images: ['/project/daisy.png',],
     techStack: [
       'Kotlin',
@@ -157,9 +157,9 @@ export const PROJECTS = [
     sourceCode: 'https://github.com/daniharmade/DaisyApps',
   },
   {
-    title: 'Laboratory Assistant Registration Information System (LARIS)',
+    title: 'LARIS',
     description:
-      'A web-based system for managing the digital registration and selection process of laboratory assistant candidates.',
+      'Laboratory Assistant Registration Information System is a web-based system for managing the digital registration and selection process of laboratory assistant candidates.',
     images: ['/project/laris.png'],
     techStack: ['Laravel', 'Blade', 'JavaScript', 'Bootstrap', 'jQuery', 'MySQL', 'Tcpdf'],
     liveDemo: 'https://laris.lab-si.uin-suska.ac.id/',
@@ -415,7 +415,7 @@ export const ORGANIZATION_HISTORY = [
   },
   {
     name: "Information System Networking Club Research UIN Suska Riau",
-    division: "Research and Scientific Publications & Website Administrator",
+    division: "Website Administrator",
     role: "Staff",
     period: "Dec 2022 - Jul 2025",
     jobdesk: [
