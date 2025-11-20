@@ -388,10 +388,10 @@ export const AWARDS = [
 
 export const EDUCATION_HISTORY = [
   {
-    university: "Universitas Islam Negeri Suska Riau",
+    university: "Universitas Islam Negeri Sultan Syarif Kasim Riau",
     major: "Information Systems",
     degree: "Bachelor of Computer",
-    gpa: "3.88/4.00",
+    gpa: "3.89/4.00",
     period: "2022 - Present (Expected Graduation: 2026)",
     location: "Pekanbaru, Riau",
     activities: [

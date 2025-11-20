@@ -108,7 +108,7 @@
 
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Calendar, Users, ChevronDown, ChevronUp, Award, Hexagon, Share2 } from 'lucide-react';
+import { Calendar, Users, ChevronDown, ChevronUp, Award, Hexagon, Share2, Layers } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ORGANIZATION_HISTORY } from '@/app/constants';
 
@@ -138,25 +138,27 @@ const Organization = () => {
 
                 {/* Header */}
                 <div className="text-center mb-16">
-                    <motion.div
+                    <motion.h2
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="inline-block"
+                        transition={{ duration: 0.5 }}
+                        className="text-3xl md:text-4xl font-bold text-white flex items-center justify-center gap-3"
                     >
-                        <div className="flex justify-center mb-4">
-                            <div className="p-3 rounded-xl bg-[rgb(255,87,34)]/10 border border-[rgb(255,87,34)]/20">
-                                <Users className="w-8 h-8 text-[rgb(255,87,34)]" /> 
-                            </div>
-                            <h2 className="text-3xl md:text-4xl font-bold text-white">
-                                Organization <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-500">History</span>
-                            </h2>
-                        </div>
+                        <Users className="w-8 h-8 text-[rgb(255,87,34)]" />
 
-                        <p className="text-gray-500 mt-4 font-mono text-sm">
-                            [ NETWORK_NODES & LEADERSHIP ]
-                        </p>
-                    </motion.div>
+                        {/* TEXT LANGSUNG DI SINI — TANPA h2 DI DALAM h2 */}
+                        <span className="text-3xl md:text-4xl font-bold text-white">
+                            Organization{' '}
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-500">
+                                History
+                            </span>
+                        </span>
+                    </motion.h2>
+
+                    <p className="text-gray-500 mt-4 font-mono text-sm">
+                        [ ADAPTATION & LEADERSHIP ]
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">

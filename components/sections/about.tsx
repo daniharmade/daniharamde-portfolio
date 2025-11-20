@@ -144,8 +144,8 @@ export default function About() {
           <motion.div variants={itemVariants} className="md:col-span-7 space-y-8">
             <div>
               <div className="flex items-center gap-2 mb-2">
-                <span className="h-[1px] w-8 bg-[rgb(255,87,34)]"></span>
-                <span className="text-[rgb(255,87,34)] font-mono text-sm tracking-wider">01. // INTRODUCTION</span>
+                {/* <span className="h-[1px] w-8 bg-[rgb(255,87,34)]"></span>
+                <span className="text-[rgb(255,87,34)] font-mono text-sm tracking-wider">01. // INTRODUCTION</span> */}
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
                 About <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-200 drop-shadow-[0_0_10px_rgba(255,87,34,0.5)]">Me</span>
@@ -165,10 +165,10 @@ export default function About() {
                 </p>
                 <p>
                   My journey involves hands-on experience as an <span className="text-white">Android & Full Stack Developer</span>. 
-                  I have sharpened my skills through prestigious programs like <span className="text-white border-b border-dashed border-gray-500">Bangkit Academy (Distinction Graduate)</span> and DBS Foundation Coding Camp.
+                  I have sharpened my skills through prestigious programs like <span className="text-white border-b border-dashed border-gray-500">Bangkit Academy (Distinction Graduate)</span> and <span className="text-white border-b border-dashed border-gray-500">DBS Foundation Coding Camp (Distinction Graduate)</span>.
                 </p>
                 <p>
-                  Beyond code, I focus on building impact—from AI-powered disease detection apps to digital lab systems.
+                Beyond writing code, I focus on developing solutions that create real impact and streamline real-world processes.
                 </p>
               </div>
             </div>

@@ -218,7 +218,6 @@ const Bootcamp = () => {
                                                     </h3>
                                                 </div>
                                                 <div className="flex items-center text-sm text-gray-400 font-mono">
-                                                    <span className="text-[rgb(255,87,34)] font-bold mr-1">@</span>
                                                     {experience.company}
                                                 </div>
                                             </div>

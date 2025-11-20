@@ -410,7 +410,7 @@ export default function Contact() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-xs text-gray-500 font-mono mb-0.5">SECURE_LINE</p>
+                    <p className="text-xs text-gray-500 font-mono mb-0.5">PHONE</p>
                     <p className="text-white font-medium group-hover:text-[rgb(255,87,34)] transition-colors">+62 851-8336-3414</p>
                   </div>
                 </div>

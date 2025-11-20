@@ -112,34 +112,35 @@ const Awards = () => {
 
     return (
         <section id="awards" className="py-24 relative bg-[#050505] overflow-hidden">
-            
+
             {/* Ambient Background Glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[rgb(255,87,34)]/5 rounded-full blur-[100px] pointer-events-none" />
 
             <div className="container px-4 mx-auto relative z-10">
-                
+
                 {/* Header */}
                 <div className="text-center mb-16">
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
-                        className="inline-block"
+                        className="text-3xl md:text-4xl font-bold text-white flex items-center justify-center gap-3"
                     >
-                        <div className="flex justify-center mb-4">
-                            <div className="relative">
-                                <div className="absolute inset-0 bg-[rgb(255,87,34)] blur-lg opacity-50 animate-pulse" />
-                                <Trophy className="w-10 h-10 text-[rgb(255,87,34)] relative z-10" />
-                            </div>
-                        </div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-white">
-                            Honors & <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-yellow-500">Awards</span>
-                        </h2>
-                        <p className="text-gray-500 mt-4 font-mono text-sm">
-                            [ ACHIEVEMENT_UNLOCKED_LOG ]
-                        </p>
-                    </motion.div>
+                        <Trophy className="w-10 h-10 text-[rgb(255,87,34)] relative z-10" />
+
+                        {/* TEXT LANGSUNG DI SINI — TANPA h2 DI DALAM h2 */}
+                        <span className="text-3xl md:text-4xl font-bold text-white">
+                            Honors &{' '}
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-500">
+                                Awards
+                            </span>
+                        </span>
+                    </motion.h2>
+
+                    <p className="text-gray-500 mt-4 font-mono text-sm">
+                        [ ACHIEVEMENT_UNLOCKED_LOG ]
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
@@ -156,10 +157,10 @@ const Awards = () => {
                             >
                                 {/* Glass Trophy Case Card */}
                                 <div className="group relative h-full bg-[#0a0a0a] border border-white/10 rounded-2xl overflow-hidden hover:border-[rgb(255,87,34)]/40 transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_10px_40px_-10px_rgba(255,87,34,0.15)]">
-                                    
+
                                     {/* Top Spotlight Gradient Effect */}
                                     <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[rgb(255,87,34)]/10 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500" />
-                                    
+
                                     {/* Large Decorative Icon Background */}
                                     <div className="absolute -right-6 -top-6 text-white/5 rotate-12 group-hover:rotate-0 group-hover:scale-110 transition-all duration-700">
                                         <Medal className="w-40 h-40" />

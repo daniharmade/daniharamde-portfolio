@@ -111,9 +111,9 @@ const Certifications = () => {
 
     return (
         <section id="certifications" className="py-24 relative bg-[#050505] overflow-hidden">
-            
+
             {/* Background Grid Pattern */}
-            <div 
+            <div
                 className="absolute inset-0 opacity-[0.03] pointer-events-none"
                 style={{
                     backgroundImage: `linear-gradient(rgb(255, 87, 34) 1px, transparent 1px), linear-gradient(90deg, rgb(255, 87, 34) 1px, transparent 1px)`,
@@ -138,7 +138,7 @@ const Certifications = () => {
                             </h2>
                         </div>
                         <p className="text-gray-500 mt-2 font-mono text-sm">
-                            [ BLOCKCHAIN_VERIFIED_ASSETS ]
+                            [ VERIFIED_CERTIFICATION_RECORDS ]
                         </p>
                     </motion.div>
                 </div>
@@ -153,7 +153,7 @@ const Certifications = () => {
                             transition={{ duration: 0.5, delay: index * 0.05 }}
                         >
                             <div className="group relative h-full bg-[#0a0a0a] border border-white/10 rounded-xl overflow-hidden hover:border-[rgb(255,87,34)]/50 transition-all duration-500 hover:shadow-[0_0_25px_rgba(255,87,34,0.15)]">
-                                
+
                                 {/* Image Section with Scanner Effect */}
                                 <div className="relative aspect-video overflow-hidden border-b border-white/5">
                                     <Image
@@ -163,10 +163,10 @@ const Certifications = () => {
                                         className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                                         priority={index < 3}
                                     />
-                                    
+
                                     {/* Overlay Gradient */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent opacity-90" />
-                                    
+
                                     {/* Scanner Line Animation */}
                                     <div className="absolute top-0 left-0 w-full h-full pointer-events-none hidden group-hover:block">
                                         <div className="w-full h-[2px] bg-[rgb(255,87,34)] shadow-[0_0_15px_rgb(255,87,34)] animate-[scan_2s_linear_infinite]" />
@@ -186,7 +186,7 @@ const Certifications = () => {
                                         <h3 className="text-lg font-bold text-white mb-3 line-clamp-2 group-hover:text-[rgb(255,87,34)] transition-colors">
                                             {cert.title}
                                         </h3>
-                                        
+
                                         <div className="space-y-3 mb-6">
                                             <div className="flex justify-between items-end text-sm border-b border-white/5 pb-2">
                                                 <span className="text-gray-500 font-mono text-xs">ISSUER</span>
@@ -223,7 +223,7 @@ const Certifications = () => {
                 </div>
 
                 {CERTIFICATIONS.length > 6 && (
-                    <motion.div 
+                    <motion.div
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}
                         className="text-center mt-16"
