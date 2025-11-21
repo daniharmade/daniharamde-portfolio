@@ -175,7 +175,7 @@ export default function About() {
 
             {/* Tech Badges / Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {['PHP', 'JavaScript', 'Kotlin', 'Laravel', 'Jetpack Compose', 'BNSP Certified'].map((tech, index) => (
+              {['PHP', 'JavaScript', 'Kotlin', 'Laravel', 'Hapi.js & React.js', 'Jetpack Compose'].map((tech, index) => (
                 <div 
                   key={index}
                   className="flex items-center justify-center px-3 py-2 rounded border border-white/10 bg-white/5 text-sm text-gray-400 font-mono hover:text-[rgb(255,87,34)] hover:border-[rgb(255,87,34)]/50 hover:bg-[rgb(255,87,34)]/10 transition-all cursor-default"
