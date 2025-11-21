@@ -12,66 +12,143 @@ import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
+// export const metadata: Metadata = {
+//   title: 'Dani Harmade | Software Engineer',
+//   description:
+//     'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack development',
+//   keywords: [
+//     'Dani Harmade',
+//     'software engineer',
+//     'full-stack developer',
+//     'web development',
+//     'android development',
+//     'portfolio',
+//   ],
+//   authors: [{ name: 'Dani Harmade' }],
+//   openGraph: {
+//     type: 'website',
+//     locale: 'en_US',
+//     url: 'https://daniharmade.vercel.app/',
+//     title: 'Dani Harmade | Software Engineer',
+//     description:
+//       'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack & android development',
+//     siteName: 'Dani Harmade Portfolio',
+//     images: [
+//       {
+//         url: Banner.src,
+//         width: 1200,
+//         height: 630,
+//         alt: 'Dani Harmade - Software Engineer',
+//       },
+//     ],
+//     countryName: 'Indonesia',
+//   },
+//   twitter: {
+//     card: 'summary_large_image',
+//     title: 'Dani Harmade | Software Engineer',
+//     description:
+//       'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack  & android development',
+//     creator: '@daniharmade',
+//     images: [
+//       {
+//         url: Banner.src,
+//         width: 1200,
+//         height: 630,
+//         alt: 'Dani Harmade - Software Engineer',
+//       },
+//     ],
+//   },
+//   viewport: 'width=device-width, initial-scale=1.0',
+//   abstract: 'Professional portfolio of Dani Harmade',
+//   applicationName: 'Dani Harmade Portfolio',
+//   category: 'Software Engineer',
+//   colorScheme: 'light dark',
+//   metadataBase: new URL('https://daniharmade.vercel.app/'),
+//   themeColor: '#ea580c',
+//   creator: 'Dani Harmade',
+//   alternates: {
+//     canonical: 'https://daniharmade.vercel.app/',
+//   },
+//   publisher: 'Dani Harmade',
+//   referrer: 'no-referrer',
+// };
+
 export const metadata: Metadata = {
-  title: 'Dani Harmade | Software Engineer',
+  title: 'Dani Harmade | Software Engineer & Full-Stack Developer',
   description:
-    'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack development',
+    'Portfolio resmi Dani Harmade, seorang Software Engineer dan Full-Stack Developer yang berpengalaman dalam pengembangan aplikasi web, mobile, dan sistem digital. Menampilkan proyek, pengalaman, keahlian, dan layanan profesional.',
   keywords: [
     'Dani Harmade',
-    'software engineer',
-    'full-stack developer',
-    'web development',
-    'android development',
-    'portfolio',
+    'Profil Dani Harmade',
+    'Software Engineer Indonesia',
+    'Full-Stack Developer Indonesia',
+    'Web Developer',
+    'Next.js Developer',
+    'React Developer',
+    'Android Developer',
+    'Portfolio Software Engineer',
+    'Portfolio Dani Harmade',
   ],
-  authors: [{ name: 'Dani Harmade' }],
+  authors: [{ name: 'Dani Harmade', url: 'https://daniharmade.vercel.app' }],
+  creator: 'Dani Harmade',
+  publisher: 'Dani Harmade',
+  metadataBase: new URL('https://daniharmade.vercel.app/'),
+
   openGraph: {
     type: 'website',
-    locale: 'en_US',
+    locale: 'id_ID',
     url: 'https://daniharmade.vercel.app/',
-    title: 'Dani Harmade | Software Engineer',
+    title: 'Dani Harmade | Software Engineer & Full-Stack Developer',
     description:
-      'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack & android development',
+      'Website resmi Dani Harmade, Software Engineer dan Full-Stack Developer dari Indonesia. Temukan pengalaman kerja, proyek terbaik, dan profil profesional lengkap.',
     siteName: 'Dani Harmade Portfolio',
     images: [
       {
         url: Banner.src,
         width: 1200,
         height: 630,
-        alt: 'Dani Harmade - Software Engineer',
+        alt: 'Portfolio Dani Harmade - Software Engineer',
       },
     ],
     countryName: 'Indonesia',
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Dani Harmade | Software Engineer',
+    title: 'Dani Harmade | Software Engineer & Full-Stack Developer',
     description:
-      'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack  & android development',
+      'Portfolio profesional Dani Harmade, Software Engineer berpengalaman dalam pengembangan web, mobile, dan sistem digital.',
     creator: '@daniharmade',
-    images: [
-      {
-        url: Banner.src,
-        width: 1200,
-        height: 630,
-        alt: 'Dani Harmade - Software Engineer',
-      },
-    ],
+    images: [Banner.src],
   },
-  viewport: 'width=device-width, initial-scale=1.0',
-  abstract: 'Professional portfolio of Dani Harmade',
-  applicationName: 'Dani Harmade Portfolio',
-  category: 'Software Engineer',
-  colorScheme: 'light dark',
-  metadataBase: new URL('https://daniharmade.vercel.app/'),
-  themeColor: '#ea580c',
-  creator: 'Dani Harmade',
+
   alternates: {
     canonical: 'https://daniharmade.vercel.app/',
+    languages: {
+      'id-ID': 'https://daniharmade.vercel.app/',
+      'en-US': 'https://daniharmade.vercel.app/en',
+    },
   },
-  publisher: 'Dani Harmade',
-  referrer: 'no-referrer',
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      maxSnippet: -1,
+      maxImagePreview: 'large',
+      maxVideoPreview: -1,
+    },
+  },
+
+  category: 'Portfolio, Software Engineer',
+  applicationName: 'Dani Harmade Portfolio',
+  referrer: 'origin-when-cross-origin',
+  viewport: 'width=device-width, initial-scale=1.0',
+  themeColor: '#ea580c',
 };
+
 
 export default function RootLayout({
   children,
