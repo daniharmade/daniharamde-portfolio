@@ -105,7 +105,7 @@ export const BOOTCAMP_EXPERIENCES = [
     company: `Digital Talent Scholarship by KOMINFO`,
     period: `July - August 2024`,
     location: `Online`,
-    type: `Professional Training & Certification`,
+    type: `Training & Certification`,
     current: false,
     responsibilities: [
       `Learned and applied front-end and back-end development skills aligned with industry standards.`,
@@ -119,7 +119,7 @@ export const BOOTCAMP_EXPERIENCES = [
     company: `Digital Talent Scholarship by KOMINFO`,
     period: `June - July 2023`,
     location: `Online`,
-    type: `Professional Training & Certification`,
+    type: `Training & Certification`,
     current: false,
     responsibilities: [
       `Gained hands-on experience in configuring and managing Cisco routers and switches in lab simulations.`,
