@@ -414,7 +414,7 @@ export const ORGANIZATION_HISTORY = [
     ],
   },
   {
-    name: "Information System Networking Club Research UIN Suska Riau",
+    name: "Information System Networking Club Research",
     division: "Website Administrator",
     role: "Staff",
     period: "Dec 2022 - Jul 2025",
