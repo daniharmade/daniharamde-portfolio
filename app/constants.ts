@@ -410,7 +410,12 @@ export const ORGANIZATION_HISTORY = [
     role: "Head of Division",
     period: "August 2025 - Present",
     jobdesk: [
-      "Komisariat Universitas Islam Negeri Sultan Syarif Kasim Riau",
+      "Komisariat Universitas Islam Negeri Sultan Syarif Kasim Riau.",
+      "Led and managed a team of 6 publication members to ensure high-quality design, copywriting, and brand consistency.",
+      "Published 10+ Instagram feed contents, informative videos, and other publication materials.",
+      "Increased Instagram engagement and visibility through consistent and relevant content.",
+      "Developed a content calendar and optimized the publication workflow.",
+      "Supported the dissemination of program information, social activities, and GenBI campaigns to students and the community.",
     ],
   },
   {
