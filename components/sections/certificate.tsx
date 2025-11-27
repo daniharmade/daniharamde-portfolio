@@ -1,100 +1,3 @@
-// 'use client';
-
-// import { useState } from 'react';
-// import { Card } from '@/components/ui/card';
-// import { motion } from 'framer-motion';
-// import Image from 'next/image';
-// import { CERTIFICATIONS } from '@/app/constants';
-// import { Button } from '@/components/ui/button';
-// import { ExternalLink } from 'lucide-react';
-
-// const Certifications = () => {
-//     const [showAll, setShowAll] = useState(false);
-//     const displayedCerts = showAll ? CERTIFICATIONS : CERTIFICATIONS.slice(0, 6); // <--- hanya 6 ditampilkan
-
-//     return (
-//         <section id="certifications" className="py-20">
-//             <div className="container px-4 mx-auto">
-//                 <motion.h2
-//                     initial={{ opacity: 0, y: 20 }}
-//                     whileInView={{ opacity: 1, y: 0 }}
-//                     viewport={{ once: true }}
-//                     transition={{ duration: 0.5 }}
-//                     className="text-3xl font-bold text-center mb-12"
-//                 >
-//                     Certifications
-//                 </motion.h2>
-
-//                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-//                     {displayedCerts.map((cert, index) => (
-//                         <motion.div
-//                             key={index}
-//                             initial={{ opacity: 0, y: 20 }}
-//                             whileInView={{ opacity: 1, y: 0 }}
-//                             viewport={{ once: true }}
-//                             transition={{ duration: 0.5, delay: index * 0.05 }}
-//                         >
-//                             <Card className="overflow-hidden h-full hover:shadow-lg transition-all duration-300 hover:border-primary-orange/50 group">
-//                                 <div className="relative aspect-video">
-//                                     <Image
-//                                         src={cert.images[0]}
-//                                         alt={`${cert.title} certificate`}
-//                                         fill
-//                                         className="object-cover"
-//                                         priority
-//                                     />
-//                                 </div>
-
-//                                 <div className="p-6">
-//                                     <h3 className="text-xl font-semibold mb-2 group-hover:text-primary-orange transition-colors">
-//                                         {cert.title}
-//                                     </h3>
-//                                     <p className="text-sm text-gray-500 mb-2">
-//                                         Issued by: <span className="font-medium">{cert.issuedBy}</span>
-//                                     </p>
-//                                     <p className="text-muted-foreground mb-4">{cert.date}</p>
-
-//                                     {cert.certificateUrl && (
-//                                         <Button
-//                                             variant="outline"
-//                                             size="sm"
-//                                             className="hover:bg-primary-orange hover:text-white border-primary-orange/50"
-//                                             asChild
-//                                         >
-//                                             <a
-//                                                 href={cert.certificateUrl}
-//                                                 target="_blank"
-//                                                 rel="noopener noreferrer"
-//                                             >
-//                                                 <ExternalLink className="w-4 h-4 mr-2" />
-//                                                 View Certificate
-//                                             </a>
-//                                         </Button>
-//                                     )}
-//                                 </div>
-//                             </Card>
-//                         </motion.div>
-//                     ))}
-//                 </div>
-
-//                 {CERTIFICATIONS.length > 6 && !showAll && (
-//                     <div className="text-center mt-12">
-//                         <Button
-//                             variant="outline"
-//                             onClick={() => setShowAll(true)}
-//                             className="border-primary-orange/50 hover:bg-primary-orange hover:text-white"
-//                         >
-//                             View More
-//                         </Button>
-//                     </div>
-//                 )}
-//             </div>
-//         </section>
-//     );
-// };
-
-// export default Certifications;
-
 'use client';
 
 import { useState } from 'react';
@@ -112,7 +15,6 @@ const Certifications = () => {
     return (
         <section id="certifications" className="py-24 relative bg-[#050505] overflow-hidden">
 
-            {/* Background Grid Pattern */}
             <div
                 className="absolute inset-0 opacity-[0.03] pointer-events-none"
                 style={{
@@ -122,7 +24,6 @@ const Certifications = () => {
             />
 
             <div className="container px-4 mx-auto relative z-10">
-                {/* Header */}
                 <div className="text-center mb-16">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -154,7 +55,6 @@ const Certifications = () => {
                         >
                             <div className="group relative h-full bg-[#0a0a0a] border border-white/10 rounded-xl overflow-hidden hover:border-[rgb(255,87,34)]/50 transition-all duration-500 hover:shadow-[0_0_25px_rgba(255,87,34,0.15)]">
 
-                                {/* Image Section with Scanner Effect */}
                                 <div className="relative aspect-video overflow-hidden border-b border-white/5">
                                     <Image
                                         src={cert.images[0]}
@@ -164,22 +64,18 @@ const Certifications = () => {
                                         priority={index < 3}
                                     />
 
-                                    {/* Overlay Gradient */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent opacity-90" />
 
-                                    {/* Scanner Line Animation */}
                                     <div className="absolute top-0 left-0 w-full h-full pointer-events-none hidden group-hover:block">
                                         <div className="w-full h-[2px] bg-[rgb(255,87,34)] shadow-[0_0_15px_rgb(255,87,34)] animate-[scan_2s_linear_infinite]" />
                                     </div>
 
-                                    {/* Status Badge */}
                                     <div className="absolute top-3 right-3 px-2 py-1 bg-black/60 backdrop-blur border border-[rgb(255,87,34)]/30 rounded text-[10px] font-mono text-[rgb(255,87,34)] flex items-center gap-1">
                                         <CheckCircle2 className="w-3 h-3" /> VALID
                                     </div>
                                 </div>
 
                                 <div className="p-6 relative">
-                                    {/* Holographic Noise Texture */}
                                     <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-5 pointer-events-none" />
 
                                     <div className="relative z-10">
@@ -247,7 +143,6 @@ const Certifications = () => {
                 )}
             </div>
 
-            {/* CSS Animation for Scanner */}
             <style jsx global>{`
                 @keyframes scan {
                     0% { transform: translateY(0); opacity: 0; }

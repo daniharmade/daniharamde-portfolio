@@ -1,64 +1,3 @@
-// 'use client';
-
-// import Image from 'next/image';
-// import { motion } from 'framer-motion';
-// import { useInView } from 'react-intersection-observer';
-
-// export default function About() {
-//   const [ref, inView] = useInView({
-//     triggerOnce: true,
-//     threshold: 0.1,
-//   });
-
-//   return (
-//     <section id="about" className="py-20 relative overflow-hidden">
-//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-//         <motion.div
-//           ref={ref}
-//           initial={{ opacity: 0, y: 20 }}
-//           animate={inView ? { opacity: 1, y: 0 } : {}}
-//           transition={{ duration: 0.8 }}
-//           className="glass rounded-2xl p-8 md:p-12"
-//         >
-//           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-//             <div className="relative w-64 md:w-96 mx-auto">
-//               <div className="aspect-square relative rounded-full overflow-hidden shine-border">
-//                 <Image
-//                   src="/dani.png"
-//                   alt="Foto"
-//                   fill
-//                   className="object-cover"
-//                   sizes="(max-width: 768px) 100vw, 50vw"
-//                 />
-//               </div>
-//               <div className="absolute inset-0 bg-gradient-to-tr from-primary-orange/10 to-transparent rounded-full animate-pulse" />
-//             </div>
-
-//             <div className="space-y-6">
-//               <h2 className="text-3xl md:text-4xl font-bold">
-//                 About <span className="text-primary-orange">Me</span>
-//               </h2>
-//               <div className="text-lg text-muted-foreground space-y-4">
-//                 <p>
-//                   Hi! I'm{' '}
-//                   <span className="text-primary-orange font-semibold">
-//                     Dani Harmade <span> </span>
-//                   </span>
-//                   7th-semester Information System student with experience as an Android and Full Stack Developer. Selected for top programs like Bangkit Academy (Distinction Graduate, Mobile Development) and DBS Foundation Coding Camp. Certified as a BNSP Junior Web Developer. Skilled in PHP, JavaScript, Kotlin, Laravel, and Jetpack Compose.
-//                 </p>
-//                 <p>
-//                   I’ve built a digital lab assistant registration system and an AI-powered skin disease detection app. Active in tech communities such as Google Developer Students Club. I believe technology is a tool for real, sustainable impact.
-//                 </p>
-//               </div>
-//             </div>
-
-//           </div>
-//         </motion.div>
-//       </div>
-//     </section>
-//   );
-// }
-
 'use client';
 
 import Image from 'next/image';
@@ -71,7 +10,6 @@ export default function About() {
     threshold: 0.2,
   });
 
-  // Animation variants untuk efek muncul bertahap
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -94,7 +32,6 @@ export default function About() {
   return (
     <section id="about" className="py-24 relative overflow-hidden bg-[#050505]">
       
-      {/* Background Elements (Web3 Glow) */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[rgb(255,87,34)]/10 rounded-full blur-[120px] -z-10 pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-blue-600/10 rounded-full blur-[100px] -z-10 pointer-events-none" />
 
@@ -107,18 +44,14 @@ export default function About() {
           className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center"
         >
           
-          {/* 3D Image Section */}
           <motion.div 
             variants={itemVariants} 
             className="md:col-span-5 relative flex justify-center"
           >
-            {/* Rotating Border Ring */}
             <div className="absolute w-72 h-72 md:w-80 md:h-80 border border-dashed border-[rgb(255,87,34)]/30 rounded-full animate-[spin_10s_linear_infinite]" />
             
-            {/* Static Glow Ring */}
             <div className="absolute w-64 h-64 md:w-[19rem] md:h-[19rem] rounded-full bg-gradient-to-b from-[rgb(255,87,34)]/20 to-transparent blur-md" />
 
-            {/* Profile Image Container */}
             <div className="relative w-64 h-64 md:w-72 md:h-72 group">
               <div className="absolute inset-0 bg-gradient-to-tr from-[rgb(255,87,34)] to-purple-600 rounded-full opacity-75 blur group-hover:opacity-100 transition duration-500 animate-pulse" />
               <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-[#1a1a1a] bg-[#1a1a1a]">
@@ -140,19 +73,15 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* Text Content */}
           <motion.div variants={itemVariants} className="md:col-span-7 space-y-8">
             <div>
               <div className="flex items-center gap-2 mb-2">
-                {/* <span className="h-[1px] w-8 bg-[rgb(255,87,34)]"></span>
-                <span className="text-[rgb(255,87,34)] font-mono text-sm tracking-wider">01. // INTRODUCTION</span> */}
               </div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-2">
                 About <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-200 drop-shadow-[0_0_10px_rgba(255,87,34,0.5)]">Me</span>
               </h2>
             </div>
 
-            {/* Glass Card for Description */}
             <div className="relative p-6 md:p-8 rounded-2xl bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl hover:border-[rgb(255,87,34)]/30 transition-colors duration-300 group">
               <div className="absolute -top-1 -left-1 w-4 h-4 border-t-2 border-l-2 border-[rgb(255,87,34)] opacity-50 group-hover:opacity-100 transition-opacity"></div>
               <div className="absolute -bottom-1 -right-1 w-4 h-4 border-b-2 border-r-2 border-[rgb(255,87,34)] opacity-50 group-hover:opacity-100 transition-opacity"></div>
@@ -173,7 +102,6 @@ export default function About() {
               </div>
             </div>
 
-            {/* Tech Badges / Stats */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
               {['PHP', 'JavaScript', 'Kotlin', 'Laravel', 'Hapi.js & React.js', 'Jetpack Compose'].map((tech, index) => (
                 <div 
