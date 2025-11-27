@@ -280,6 +280,13 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/Cisco.pdf",
   },
   {
+    title: "Test of English as a Foreign Language (TOAFL)",
+    issuedBy: "Global Operation Indonesia",
+    date: "November 2025",
+    images: ["/certificate/TOEFL.jpg"],
+    certificateUrl: "/pdf/TOEFL.pdf",
+  },
+  {
     title: "Certified Developer",
     issuedBy: "Alibaba Cloud",
     date: "September 2022",
