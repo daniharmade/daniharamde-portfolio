@@ -12,67 +12,6 @@ import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
-// export const metadata: Metadata = {
-//   title: 'Dani Harmade | Software Engineer',
-//   description:
-//     'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack development',
-//   keywords: [
-//     'Dani Harmade',
-//     'software engineer',
-//     'full-stack developer',
-//     'web development',
-//     'android development',
-//     'portfolio',
-//   ],
-//   authors: [{ name: 'Dani Harmade' }],
-//   openGraph: {
-//     type: 'website',
-//     locale: 'en_US',
-//     url: 'https://daniharmade.vercel.app/',
-//     title: 'Dani Harmade | Software Engineer',
-//     description:
-//       'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack & android development',
-//     siteName: 'Dani Harmade Portfolio',
-//     images: [
-//       {
-//         url: Banner.src,
-//         width: 1200,
-//         height: 630,
-//         alt: 'Dani Harmade - Software Engineer',
-//       },
-//     ],
-//     countryName: 'Indonesia',
-//   },
-//   twitter: {
-//     card: 'summary_large_image',
-//     title: 'Dani Harmade | Software Engineer',
-//     description:
-//       'Professional portfolio of Dani Harmade, a software engineer specializing in full-stack  & android development',
-//     creator: '@daniharmade',
-//     images: [
-//       {
-//         url: Banner.src,
-//         width: 1200,
-//         height: 630,
-//         alt: 'Dani Harmade - Software Engineer',
-//       },
-//     ],
-//   },
-//   viewport: 'width=device-width, initial-scale=1.0',
-//   abstract: 'Professional portfolio of Dani Harmade',
-//   applicationName: 'Dani Harmade Portfolio',
-//   category: 'Software Engineer',
-//   colorScheme: 'light dark',
-//   metadataBase: new URL('https://daniharmade.vercel.app/'),
-//   themeColor: '#ea580c',
-//   creator: 'Dani Harmade',
-//   alternates: {
-//     canonical: 'https://daniharmade.vercel.app/',
-//   },
-//   publisher: 'Dani Harmade',
-//   referrer: 'no-referrer',
-// };
-
 export const metadata: Metadata = {
   title: 'Dani Harmade | Software Engineer & Full-Stack Developer',
   description:
@@ -136,9 +75,6 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      // maxSnippet: -1,
-      // maxImagePreview: 'large',
-      // maxVideoPreview: -1,
     },
   },
 

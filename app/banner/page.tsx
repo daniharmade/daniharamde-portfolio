@@ -20,11 +20,9 @@ export default function BannerPage() {
     <div className="h-screen my-auto container mx-auto relative bg-background overflow-hidden">
       <Particles className="absolute inset-0" />
 
-      {/* Background Pattern */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_25px_25px,_var(--primary-orange)_2%,transparent_0%),radial-gradient(circle_at_75px_75px,_var(--primary-orange)_2%,transparent_0%)] bg-[length:100px_100px] opacity-5" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-16">
-        {/* Avatar Container */}
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
@@ -57,7 +55,6 @@ export default function BannerPage() {
           </p>
         </motion.div>
 
-        {/* Skills Pills */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -81,7 +78,6 @@ export default function BannerPage() {
           ))}
         </motion.div>
 
-        {/* Social Links */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
