@@ -96,7 +96,14 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="theme-color" content="#ea580c" />
+
+        {/* Google Search Console Verification */}
+        <meta 
+          name="google-site-verification" 
+          content="oMBW8sY21uHuDn4vusv1mT002rKoSx8sAPnDxnLWrvs" 
+        />
       </head>
+
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
@@ -110,11 +117,11 @@ export default function RootLayout({
           <main>{children}</main>
           <Footer />
           <GoToTop />
-
           <Toaster />
         </ThemeProvider>
       </body>
     </html>
   );
 }
+
 
