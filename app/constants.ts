@@ -132,6 +132,14 @@ export const BOOTCAMP_EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: 'LMS - PBL',
+    description:
+      'Learning Management System - Project Based Learning is a system designed to support project-based learning by managing tasks, tracking progress, and facilitating student–lecturer interaction.',
+    images: ['/project/LMS-PBL.png', '/project/LMS-PBL-Developer.png'],
+    techStack: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'OOAD', 'Web Hosting', 'Tailwind CSS', 'Notion'],
+    liveDemo: '/pdf/Buku Petunjuk Penggunaan Aplikasi LMS PBL.pdf',
+  },
+  {
     title: 'Foodinary',
     description:
       'Foodinary is a culinary website that allows users to discover and explore diverse local and international cuisines with a clean and interactive interface.',
