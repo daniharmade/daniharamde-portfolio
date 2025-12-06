@@ -135,7 +135,7 @@ export const PROJECTS = [
     title: 'LMS - PBL',
     description:
       'Learning Management System - Project Based Learning is a system designed to support project-based learning by managing tasks, tracking progress, and facilitating student–lecturer interaction.',
-    images: ['/project/LMS-PBL.png', '/project/LMS-PBL-Developer.png'],
+    images: ['/project/LMS-PBL.png', '/project/LMS-PBL-Dashboard.png', '/project/LMS-PBL-Developer.png'],
     techStack: ['Laravel', 'PHP', 'JavaScript', 'MySQL', 'OOAD', 'Web Hosting', 'Tailwind CSS', 'Notion'],
     liveDemo: '/pdf/Buku Petunjuk Penggunaan Aplikasi LMS PBL.pdf',
   },
@@ -168,7 +168,7 @@ export const PROJECTS = [
     title: 'LARIS',
     description:
       'Laboratory Assistant Registration Information System is a web-based system for managing the digital registration and selection process of laboratory assistant candidates.',
-    images: ['/project/laris.png'],
+    images: ['/project/laris.png', '/project/laris-Developer.png'],
     techStack: ['Laravel', 'Blade', 'JavaScript', 'Bootstrap', 'jQuery', 'MySQL', 'Tcpdf'],
     liveDemo: 'https://laris.lab-si.uin-suska.ac.id/',
   },
