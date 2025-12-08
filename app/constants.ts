@@ -132,6 +132,15 @@ export const BOOTCAMP_EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: 'GenBI UIN Suska Riau Website',
+    description:
+      'The official website of Generasi Baru Indonesia (GenBI) UIN Suska Riau, designed to provide information about the organization, its programs, and activities to students and the community.',
+    images: ['/project/WebGenbi.png'],
+    techStack: ['Tailwind CSS', 'HTML', 'JavaScript', 'Vercel'],
+    liveDemo: 'https://genbi-uinsuska.vercel.app/',
+    sourceCode: 'https://github.com/daniharmade/genbi-uinsuska',
+  },
+  {
     title: 'LMS - PBL',
     description:
       'Learning Management System - Project Based Learning is a system designed to support project-based learning by managing tasks, tracking progress, and facilitating student–lecturer interaction.',
