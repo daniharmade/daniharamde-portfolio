@@ -1,4 +1,4 @@
-# 🌐 Dani Harmade | Web3 Futuristic Portfolio
+# 🌐 Dani Harmade | Portfolio Website
 
 ![Portfolio Preview](public/bannerp.png)
 
