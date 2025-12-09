@@ -214,7 +214,7 @@ export const CERTIFICATIONS = [
   },
   {
     title: "Software Engineer Internship",
-    issuedBy: "Linkupcareer.id",
+    issuedBy: "PT Edukarir Global Nusantara",
     date: "May 2025",
     images: ["/certificate/Internship-Linkupcareer.png"],
     certificateUrl: "/pdf/Internship-Linkupcareer.pdf",
