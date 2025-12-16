@@ -67,7 +67,7 @@ export default function About() {
               {/* Floating Badge */}
               <div className="absolute -bottom-2 -right-2 bg-[#0f0f0f] border border-[rgb(255,87,34)] px-4 py-1 rounded-full shadow-[0_0_15px_rgba(255,87,34,0.4)]">
                 <span className="text-xs font-mono text-[rgb(255,87,34)] font-bold">
-                  LVL. 7 STUDENT
+                  #OPENTOWORK
                 </span>
               </div>
             </div>
