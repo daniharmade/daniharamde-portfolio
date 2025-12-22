@@ -33,7 +33,7 @@ const Work = () => {
             <span>Work <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-400">Experience</span></span>
           </motion.h2>
           <p className="text-gray-500 mt-4 font-mono text-sm">
-            [ PREVIOUS_DEPLOYMENTS_LOG ]
+            [ PROFESSIONAL_ENVIRONMENT_LOGS ]
           </p>
         </div>
 

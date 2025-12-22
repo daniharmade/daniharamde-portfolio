@@ -35,11 +35,11 @@ const Certifications = () => {
                         <div className="flex items-center justify-center gap-3 mb-2">
                             <ShieldCheck className="w-8 h-8 text-[rgb(255,87,34)]" />
                             <h2 className="text-3xl md:text-4xl font-bold text-white">
-                                Verified <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-400">Credentials</span>
+                                Verified <span className="text-transparent bg-clip-text bg-gradient-to-r from-[rgb(255,87,34)] to-orange-400">Professional Certifications</span>
                             </h2>
                         </div>
                         <p className="text-gray-500 mt-2 font-mono text-sm">
-                            [ VERIFIED_CERTIFICATION_RECORDS ]
+                            [ SYSTEM_VALIDATED_LICENSES ]
                         </p>
                     </motion.div>
                 </div>
