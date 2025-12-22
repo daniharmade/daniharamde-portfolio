@@ -419,8 +419,9 @@ export const EDUCATION_HISTORY = [
     period: "2022 - Present (Expected Graduation: 2026)",
     location: "Pekanbaru, Riau",
     activities: [
-      "Head of Publication and Socialization Division in GenBI UIN Suska Riau.",
       "Awardee of Bank Indonesia Scholarship 2025.",
+      "Published 2 technology-related research papers in accredited academic journals.",
+      "2nd Place Winner – Scientific Poster & Final Project Competition (GALAKSI 2025).",
       "Laboratory Assistant and Website Administrator Information System Department.",
       "Relevant Coursework: Algorithm and Programming, Object Oriented Programming, Management of Database, Human-Computer Interaction, Web Programming, Information System Analysis, Software Engineering, Geographic Information Systems (GIS), and Intelligent Information System.",
     ]

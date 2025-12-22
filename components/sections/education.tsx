@@ -44,7 +44,7 @@ const Education = () => {
                     </motion.div>
                 </div>
 
-                <div className="max-w-4xl mx-auto relative">
+                <div className="max-w-6xl mx-auto relative">
                     <div className="absolute left-4 md:left-8 top-4 bottom-4 w-0.5 bg-gradient-to-b from-[rgb(255,87,34)] via-gray-800 to-transparent opacity-30" />
 
                     <AnimatePresence mode='wait'>
@@ -67,8 +67,9 @@ const Education = () => {
                                     <div className="absolute top-0 left-0 w-3 h-3 border-t border-l border-[rgb(255,87,34)] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                                     <div className="absolute bottom-0 right-0 w-3 h-3 border-b border-r border-[rgb(255,87,34)] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                                    <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-4 mb-6">
-                                        <div>
+                                    {/* HEADER SECTION: University di kiri, Info di kanan */}
+                                    <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-4 mb-6">
+                                        <div className="max-w-[70%]">
                                             <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-[rgb(255,87,34)] transition-colors">
                                                 {edu.university}
                                             </h3>
@@ -78,19 +79,21 @@ const Education = () => {
                                             </div>
                                         </div>
 
-                                        <div className="flex flex-wrap gap-2 font-mono text-xs">
-                                            <div className="flex items-center gap-1 px-3 py-1 rounded-full bg-black/40 border border-white/10 text-gray-300">
+                                        {/* Info Lokasi & Tahun di pojok kanan */}
+                                        <div className="flex flex-col items-start md:items-end gap-2 font-mono text-xs">
+                                            <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-black/40 border border-white/10 text-gray-300">
                                                 <Calendar className="w-3 h-3 text-[rgb(255,87,34)]" />
                                                 {edu.period}
                                             </div>
-                                            <div className="flex items-center gap-1 px-3 py-1 rounded-full bg-black/40 border border-white/10 text-gray-300">
+                                            <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-black/40 border border-white/10 text-gray-300">
                                                 <MapPin className="w-3 h-3 text-[rgb(255,87,34)]" />
                                                 {edu.location}
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div className="flex items-center gap-3 mb-6 p-3 bg-[rgb(255,87,34)]/5 border-l-2 border-[rgb(255,87,34)] rounded-r-lg">
+                                    {/* GPA SCORE */}
+                                    <div className="flex items-center gap-3 mb-6 p-3 bg-[rgb(255,87,34)]/5 border-l-2 border-[rgb(255,87,34)] rounded-r-lg w-fit">
                                         <Award className="w-5 h-5 text-[rgb(255,87,34)]" />
                                         <span className="text-sm font-mono text-gray-300">
                                             LATEST GPA SCORE: <span className="text-white font-bold text-lg ml-2">{edu.gpa}</span>
