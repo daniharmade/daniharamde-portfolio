@@ -15,13 +15,13 @@ export const WORK_EXPERIENCES = [
   {
     title: `Website Administrator`,
     company: `Information System Department at UIN Suska Riau`,
-    period: `December 2023 - January 2025`,
+    period: `December 2023 - December 2025`,
     location: `Pekanbaru, Indonesia`,
     type: `Contract`,
     current: false,
     responsibilities: [
       `Maintained website with 100% uptime and improved structure.`,
-      `Published 30+ updates to keep students informed.`,
+      `Published 40+ updates to keep students informed.`,
       `Enhanced accessibility and resolved issues, reducing errors by 30%.`,
     ],
   },
