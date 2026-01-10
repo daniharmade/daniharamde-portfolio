@@ -416,13 +416,14 @@ export const EDUCATION_HISTORY = [
     major: "Information Systems",
     degree: "Bachelor of Computer",
     gpa: "3.89/4.00",
-    period: "2022 - Present (Expected Graduation: 2026)",
+    period: "Jul 2022 - Jan 2026",
     location: "Pekanbaru, Riau",
     activities: [
       "Awardee of Bank Indonesia Scholarship 2025.",
       "Published 2 technology-related research papers in accredited academic journals.",
       "2nd Place Winner – Scientific Poster & Final Project Competition (GALAKSI 2025).",
       "Laboratory Assistant and Website Administrator Information System Department.",
+      "Thesis Title: Implementasi Supervised Learning untuk Visualisasi Alfabet dan Kata Dasar Bahasa Isyarat Indonesia",
       "Relevant Coursework: Algorithm and Programming, Object Oriented Programming, Management of Database, Human-Computer Interaction, Web Programming, Information System Analysis, Software Engineering, Geographic Information Systems (GIS), and Intelligent Information System.",
     ]
   },
@@ -437,7 +438,7 @@ export const ORGANIZATION_HISTORY = [
     jobdesk: [
       "Komisariat Universitas Islam Negeri Sultan Syarif Kasim Riau.",
       "Led and managed a team of 6 publication members to ensure high-quality design, copywriting, and brand consistency.",
-      "Published 10+ Instagram feed contents, informative videos, and other publication materials.",
+      "Boosted social media reach to 211K+ views in 3 months through strategic content planning.",
       "Developed a content calendar and optimized the publication workflow.",
       "Built, developed, and hosted the official website for GenBI UIN Suska Riau.",
     ],
