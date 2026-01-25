@@ -420,7 +420,7 @@ export const EDUCATION_HISTORY = [
     location: "Pekanbaru, Riau",
     activities: [
       "Awardee of Bank Indonesia Scholarship 2025.",
-      "Published 2 technology-related research papers in accredited academic journals.",
+      "Published 3 technology-related research papers in accredited academic journals.",
       "2nd Place Winner – Scientific Poster & Final Project Competition (GALAKSI 2025).",
       "Laboratory Assistant and Website Administrator Information System Department.",
       "Thesis Title: Implementasi Supervised Learning untuk Visualisasi Alfabet dan Kata Dasar Bahasa Isyarat Indonesia",
