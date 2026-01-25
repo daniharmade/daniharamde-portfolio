@@ -37,7 +37,7 @@ const Education = () => {
                     >
                         <h2 className="text-3xl md:text-4xl font-bold text-white flex items-center gap-3 justify-center">
                             <span className="text-[rgb(255,87,34)] font-mono text-2xl">&lt;</span>
-                            Education History
+                            Education
                             <span className="text-[rgb(255,87,34)] font-mono text-2xl">/&gt;</span>
                         </h2>
                         <div className="h-1 w-24 bg-[rgb(255,87,34)] mx-auto mt-4 rounded shadow-[0_0_10px_rgb(255,87,34)]" />
