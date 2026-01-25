@@ -96,7 +96,7 @@ const Education = () => {
                                     <div className="flex items-center gap-3 mb-6 p-3 bg-[rgb(255,87,34)]/5 border-l-2 border-[rgb(255,87,34)] rounded-r-lg w-fit">
                                         <Award className="w-5 h-5 text-[rgb(255,87,34)]" />
                                         <span className="text-sm font-mono text-gray-300">
-                                            LATEST GPA SCORE: <span className="text-white font-bold text-lg ml-2">{edu.gpa}</span>
+                                            GPA: <span className="text-white font-bold text-lg ml-2">{edu.gpa}</span>
                                         </span>
                                     </div>
 
