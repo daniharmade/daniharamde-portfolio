@@ -167,12 +167,12 @@ import Link from 'next/link';
 
 const navigation = [
   { name: 'About', href: '#about' },
-  { name: 'Education', href: '#education' },
   { name: 'Work', href: '#workExperience' },
-  { name: 'Bootcamp', href: '#bootcampExperience' },
   { name: 'Project', href: '#projects' },
-  { name: 'Organization', href: '#organization' }, // Disingkat agar muat
-  { name: 'Certificates', href: '#certifications' }, // Disingkat
+  { name: 'Education', href: '#education' },
+  { name: 'Bootcamp', href: '#bootcampExperience' },
+  { name: 'Organization', href: '#organization' }, 
+  { name: 'Certificates', href: '#certifications' },
   { name: 'Awards', href: '#awards' },
   { name: 'Contact', href: '#contact' },
 ];
