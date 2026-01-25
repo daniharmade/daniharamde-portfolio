@@ -422,7 +422,7 @@ export const EDUCATION_HISTORY = [
       "Awardee of Bank Indonesia Scholarship 2025.",
       "Published 3 technology-related research papers in accredited academic journals.",
       "2nd Place Winner – Scientific Poster & Final Project Competition (GALAKSI 2025).",
-      "📘 Thesis Title — Implementasi Supervised Learning untuk Visualisasi Alfabet dan Kata Dasar Bahasa Isyarat Indonesia",
+      "📘 Thesis Title: Implementasi Supervised Learning untuk Visualisasi Alfabet dan Kata Dasar Bahasa Isyarat Indonesia",
       "Activities and societies: Generasi Baru Indonesia (GenBI) USR, GDSC USR, Laboratory Assistant, Website Administrator, Accreditation Preparation for the Study Program, and ISNC Research.",
       "Relevant Coursework: Algorithm and Programming, Object Oriented Programming, Management of Database, Human-Computer Interaction, Web Programming, Information System Analysis, Software Engineering, Geographic Information Systems (GIS), and Intelligent Information System.",
     ]
