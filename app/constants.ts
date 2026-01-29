@@ -199,6 +199,13 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/BangkitAcademy.pdf",
   },
   {
+    title: "Software Engineer Internship",
+    issuedBy: "PT Edukarir Global Nusantara",
+    date: "May 2025",
+    images: ["/certificate/Internship-Linkupcareer.png"],
+    certificateUrl: "/pdf/Internship-Linkupcareer.pdf",
+  },
+  {
     title: "Junior Web Developer",
     issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
     date: "November 2024",
@@ -206,18 +213,25 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/JuniorWebDeveloper.pdf",
   },
   {
+    title: "Operating Generative AI Tools",
+    issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
+    date: "December 2025",
+    images: ["/certificate/BNSP-GENAI.jpg"],
+    certificateUrl: "/pdf/BNSP-GENAI.pdf",
+  },
+  {
+    title: "Junior Network Administrator",
+    issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
+    date: "September 2023",
+    images: ["/certificate/BNSP-JNA.jpg"],
+    certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
+  },
+  {
     title: "Junior Web Developer - Bootcamp",
     issuedBy: "Kementerian Komunikasi dan Informatika",
     date: "October 2024",
     images: ["/certificate/VSGA-JWD.png"],
     certificateUrl: "/pdf/VSGA-JWD.pdf",
-  },
-  {
-    title: "Software Engineer Internship",
-    issuedBy: "PT Edukarir Global Nusantara",
-    date: "May 2025",
-    images: ["/certificate/Internship-Linkupcareer.png"],
-    certificateUrl: "/pdf/Internship-Linkupcareer.pdf",
   },
   {
     title: "Intermediate Android Development",
@@ -281,13 +295,6 @@ export const CERTIFICATIONS = [
     date: "August 2023",
     images: ["/certificate/VSGA-JNA.png"],
     certificateUrl: "/pdf/VSGA-JNA.pdf",
-  },
-  {
-    title: "Junior Network Administrator",
-    issuedBy: "Badan Nasional Sertifikasi Profesi (BNSP)",
-    date: "September 2023",
-    images: ["/certificate/BNSP-JNA.jpg"],
-    certificateUrl: "/pdf/JuniorNetworkAdministrator.pdf",
   },
   {
     title: "CCNAv7: Enterprise Networking, Security, and Automation.",
