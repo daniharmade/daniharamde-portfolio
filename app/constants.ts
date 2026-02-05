@@ -170,7 +170,7 @@ export const PROJECTS = [
       'Postman',
       'Tensorflow Lite',
     ],
-    liveDemo: 'https://drive.google.com/file/d/1Jo6_KHcN_VGNs3oTdz2VHrz8KQzzsRmm/view?usp=sharing',
+    liveDemo: 'https://daisy-ai-system.vercel.app/',
     sourceCode: 'https://github.com/daniharmade/DaisyApps',
   },
   {
