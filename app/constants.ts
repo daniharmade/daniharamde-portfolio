@@ -7,9 +7,10 @@ export const WORK_EXPERIENCES = [
     type: `Internship`,
     current: false,
     responsibilities: [
-      `Designed core features for the RBB Try-Out platform with a focus on UX and scalability.`,
-      `Developed and deployed an auto-certificate generator for 350+ users.`,
-      `Improved backend performance and reduced manual tasks.`,
+      `Contributed to increasing IT Division KPI from 78% to 89% through system and process optimization.`,
+      `Designed core features for the RBB Try-Out platform (350+ users), improving system stability and user experience.`,
+      `Developed and implemented an automated certification system using Laravel, reducing manual workload by 70%.`,
+      `Optimized backend performance and MySQL queries to enhance system scalability and reliability.`
     ],
   },
   {
