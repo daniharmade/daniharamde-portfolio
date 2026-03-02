@@ -1,5 +1,16 @@
 export const WORK_EXPERIENCES = [
   {
+    title: `Full Stack Developer Facilitator`,
+    company: `Dicoding Indonesia`,
+    period: `January 2026 - Present`,
+    location: `Remote`,
+    type: `Part-time`,
+    current: true,
+    responsibilities: [
+      // ``,
+    ],
+  },
+  {
     title: `Software Engineer`,
     company: `PT Edukarir Global Nusantara`,
     period: `February - May 2025`,
@@ -72,10 +83,25 @@ export const WORK_EXPERIENCES = [
 
 export const BOOTCAMP_EXPERIENCES = [
   {
+    title: `Pengoperasian Tools Generative AI`,
+    company: `Kementrian Ketenagakerjaan`,
+    period: `Oct - Dec 2025`,
+    location: `Remote`,
+    type: `Training & Certification`,
+    current: false,
+    responsibilities: [
+      `Assisted in planning and executing automation-related initiatives`,
+      `Contributed to product and project development activities`,
+      `Applied generative AI tools to enhance internal processes`,
+      `Conducted structural and analytical evaluations to support decision-making`,
+      `Leveraged strong critical thinking for problem-solving and workflow optimization`,
+    ],
+  },
+  {
     title: `Full Stack Developer`,
     company: `Coding Camp powered by DBS Foundation`,
     period: `February - July 2025`,
-    location: `Online`,
+    location: `Remote`,
     type: `Study Independent`,
     current: false,
     responsibilities: [
@@ -90,7 +116,7 @@ export const BOOTCAMP_EXPERIENCES = [
     title: `Android Developer`,
     company: `Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka`,
     period: `August 2024 - January 2025`,
-    location: `Online`,
+    location: `Remote`,
     type: `Study Independent`,
     current: false,
     responsibilities: [
@@ -105,7 +131,7 @@ export const BOOTCAMP_EXPERIENCES = [
     title: `Junior Web Developer`,
     company: `Digital Talent Scholarship by KOMINFO`,
     period: `July - August 2024`,
-    location: `Online`,
+    location: `Remote`,
     type: `Training & Certification`,
     current: false,
     responsibilities: [
@@ -119,7 +145,7 @@ export const BOOTCAMP_EXPERIENCES = [
     title: `Junior Network Administrator`,
     company: `Digital Talent Scholarship by KOMINFO`,
     period: `June - July 2023`,
-    location: `Online`,
+    location: `Remote`,
     type: `Training & Certification`,
     current: false,
     responsibilities: [
