@@ -261,18 +261,25 @@ export const CERTIFICATIONS = [
     certificateUrl: "/pdf/VSGA-JWD.pdf",
   },
   {
-    title: "Intermediate Android Development",
-    issuedBy: "Dicoding",
-    date: "December 2024",
-    images: ["/certificate/Dicoding-AndroidIntermediate.jpg"],
-    certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
-  },
-  {
     title: "Pengoperasian Tools Generative AI",
     issuedBy: "Kementerian Ketenagakerjaan",
     date: "November 2025",
     images: ["/certificate/kemenaker-blk-ai.png"],
     certificateUrl: "https://skillhub.kemnaker.go.id/sertifikat/pelatihan/99d6487c-33e5-416e-8a90-bea3665d96f3",
+  },
+  {
+    title: "Healthkathon 2025",
+    issuedBy: "BPJS Kesehatan",
+    date: "March 2026",
+    images: ["/certificate/BPJS-Inovation.jpg"],
+    certificateUrl: "https://healthkathon.bpjs-kesehatan.go.id:8080/hk-sertifikat/download/sertifikat/2025/NYdQmgLgCgbAwiAbgI2QWwMYDEAOBLAewEEB3ADgzAFcALCDARgDsGATPNLABgEUB2AJ4AhAF4AZAKoBZLAEcArAEMYixACkeAK0QTgAaQByTHFIDy8gB4BmIA",
+  },
+  {
+    title: "Intermediate Android Development",
+    issuedBy: "Dicoding",
+    date: "December 2024",
+    images: ["/certificate/Dicoding-AndroidIntermediate.jpg"],
+    certificateUrl: "https://www.dicoding.com/certificates/GRX54REOYP0M",
   },
   {
     title: "React Web Application Fundamentals",
