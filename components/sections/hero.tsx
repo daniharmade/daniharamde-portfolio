@@ -74,7 +74,7 @@ export default function Hero() {
               className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-sans"
             >
               <span className="font-mono text-[rgb(255,87,34)]">&lt;System&gt;</span>{' '}
-              Fresh Graduate of Information Systems with 1 year experience transforming ideas into
+              Graduate of Information Systems with 1 year experience transforming ideas into
               <span className="text-white font-medium"> Web & Android</span> solutions.
               Passionate about{' '}
               <span className="text-white border-b border-dashed border-gray-600 pb-0.5">

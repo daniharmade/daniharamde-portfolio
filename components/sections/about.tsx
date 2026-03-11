@@ -89,7 +89,7 @@ export default function About() {
               <div className="text-gray-300 space-y-4 leading-relaxed font-sans">
                 <p>
                   Hi! I'm <strong className="text-white">Dani Harmade</strong>, a
-                  <span className="text-[rgb(255,87,34)] mx-1 font-medium">Fresh Graduate of Information Systems</span>
+                  <span className="text-[rgb(255,87,34)] mx-1 font-medium">Graduate of Information Systems</span>
                   passionate about bridging the gap between complex backend logic and immersive frontend experiences.
                 </p>
                 <p>
