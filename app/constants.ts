@@ -475,7 +475,7 @@ export const ORGANIZATION_HISTORY = [
     name: "Generasi Baru Indonesia (GenBI) UIN Suska Riau",
     division: "Publication and Socialization",
     role: "Head of Division",
-    period: "August 2025 - Present",
+    period: "August - December 2025",
     jobdesk: [
       "Komisariat Universitas Islam Negeri Sultan Syarif Kasim Riau.",
       "Led and managed a team of 6 publication members to ensure high-quality design, copywriting, and brand consistency.",
