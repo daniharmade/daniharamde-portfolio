@@ -4,10 +4,13 @@ export const WORK_EXPERIENCES = [
     company: `Dicoding Indonesia`,
     period: `January 2026 - Present`,
     location: `Remote`,
-    type: `Part-time`,
+    type: `Contract`,
     current: true,
     responsibilities: [
-      // ``,
+      `Led 14 weekly consultation sessions, driving a 93% cohort completion rate`,
+      `Moderated and operated 10 ILT sessions, ensuring smooth and engaging delivery`,
+      `Coordinated with Dicoding team to resolve participant inquiries effectively`,
+      `Monitored and supported participant progress to improve learning outcomes and retention`,
     ],
   },
   {
