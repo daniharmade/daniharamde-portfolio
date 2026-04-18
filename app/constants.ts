@@ -1,5 +1,19 @@
 export const WORK_EXPERIENCES = [
   {
+    title: `Software Quality Assurance`,
+    company: `SawitPRO`,
+    period: `February 2026 - Present`,
+    location: `Pekanbaru, Riau, Indonesia`,
+    type: `Apprenticeship`,
+    current: true,
+    responsibilities: [
+      `Created 50+ Gherkin-based test cases in Qase.io based on PRD and UI/UX, improving test coverage and clarity`,
+      `Executed manual testing and API testing via Postman, identifying 10+ defects and 5+ bugs in mobile apps.`,
+      `Built and optimized UI automation suites using Robot Framework with Python, reducing manual testing effort.`,
+      `Collaborated with dev & product teams to resolve bugs, improve quality, and support staging releases.`,
+    ],
+  },
+  {
     title: `Full Stack Developer Facilitator`,
     company: `Dicoding Indonesia`,
     period: `January 2026 - Present`,
