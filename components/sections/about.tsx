@@ -86,24 +86,25 @@ export default function About() {
               <div className="absolute -top-1 -left-1 w-4 h-4 border-t-2 border-l-2 border-[rgb(255,87,34)] opacity-50 group-hover:opacity-100 transition-opacity"></div>
               <div className="absolute -bottom-1 -right-1 w-4 h-4 border-b-2 border-r-2 border-[rgb(255,87,34)] opacity-50 group-hover:opacity-100 transition-opacity"></div>
 
-              <div className="text-gray-300 space-y-4 leading-relaxed font-sans">
-                <p>
-                  Hi! I'm <strong className="text-white">Dani Harmade</strong>, a
-                  <span className="text-[rgb(255,87,34)] mx-1 font-medium">Information Systems Graduate</span>
-                  passionate about bridging the gap between complex backend logic and immersive frontend experiences.
-                </p>
-                <p>
-                  My journey involves hands-on experience as an <span className="text-white">Android & Full Stack Developer</span>.
-                  I have sharpened my skills through prestigious programs like <span className="text-white border-b border-dashed border-gray-500">Bangkit Academy (Distinction Graduate)</span> and <span className="text-white border-b border-dashed border-gray-500">DBS Foundation Coding Camp (Distinction Graduate)</span>.
-                </p>
-                <p>
-                  Beyond writing code, I focus on developing solutions that create real impact and streamline real-world processes.
-                </p>
-              </div>
+            <div className="text-gray-300 space-y-4 leading-relaxed font-sans">
+              <p>
+                Hi! I'm <strong className="text-white">Dani Harmade</strong>, an 
+                <span className="text-[rgb(255,87,34)] mx-1 font-medium">Information Systems Graduate</span> 
+                with hands-on experience in Software Engineering and Quality Assurance.
+              </p>
+              <p>
+                I specialize in building and testing reliable applications across web and mobile, with expertise in 
+                <span className="text-white"> Laravel, JavaScript, Kotlin, and automation testing</span>. 
+                I’ve delivered impactful solutions—from optimizing backend performance to automating test cases that reduce regression effort.
+              </p>
+              <p>
+                I focus on creating scalable, high-quality systems by bridging development and testing, ensuring every product is both functional and dependable.
+              </p>
+            </div>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-              {['PHP', 'JavaScript', 'Kotlin', 'Laravel', 'Hapi.js & React.js', 'Jetpack Compose'].map((tech, index) => (
+              {['Laravel', 'Hapi.js & React.js', 'Jetpack Compose', 'Appium', 'RobotFramework', 'Postman'].map((tech, index) => (
                 <div
                   key={index}
                   className="flex items-center justify-center px-3 py-2 rounded border border-white/10 bg-white/5 text-sm text-gray-400 font-mono hover:text-[rgb(255,87,34)] hover:border-[rgb(255,87,34)]/50 hover:bg-[rgb(255,87,34)]/10 transition-all cursor-default"

@@ -74,13 +74,14 @@ export default function Hero() {
               className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-sans"
             >
               <span className="font-mono text-[rgb(255,87,34)]">&lt;System&gt;</span>{' '}
-              Information Systems Graduate with 1 year experience transforming ideas into
-              <span className="text-white font-medium"> Web & Android</span> solutions.
+              Information Systems Graduate with hands-on experience in 
+              <span className="text-white font-medium"> Web & Android Development</span>, 
+              with a strong focus on automation testing and scalable solutions.
               Passionate about{' '}
               <span className="text-white border-b border-dashed border-gray-600 pb-0.5">
                 clean code
               </span>{' '}
-              and innovative problem-solving.
+              and impactful products.
               <span className="font-mono text-[rgb(255,87,34)]"> &lt;/System&gt;</span>
             </motion.p>
 
