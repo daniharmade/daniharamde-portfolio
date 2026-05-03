@@ -16,7 +16,7 @@ export const WORK_EXPERIENCES = [
   {
     title: `Full Stack Developer Facilitator`,
     company: `Dicoding Indonesia`,
-    period: `January - April 2026`,
+    period: `January - May 2026`,
     location: `Remote`,
     type: `Contract`,
     current: false,
