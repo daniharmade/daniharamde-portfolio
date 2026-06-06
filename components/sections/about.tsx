@@ -90,7 +90,7 @@ export default function About() {
               <p>
                 Hi! I'm <strong className="text-white">Dani Harmade</strong>, an
                 <span className="text-[rgb(255,87,34)] mx-1 font-medium">Information Systems graduate</span>
-                with 1 year of hands-on experience in Software Engineering and Software Quality Assurance.
+                with 1+ years of hands-on experience in Software Engineering and Software Quality Assurance.
               </p>
               <p>
                 Skilled in building and testing applications using

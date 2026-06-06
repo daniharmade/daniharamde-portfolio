@@ -75,7 +75,7 @@ export default function Hero() {
               className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed font-sans"
             >
               <span className="font-mono text-[rgb(255,87,34)]">&lt;System&gt;</span>{' '}
-              Information Systems graduate with 1 year experience in Software Engineering & Quality Assurance — experienced in <em>Appium, Robot Framework, JavaScript, Laravel, Kotlin, and Postman</em>.
+              Information Systems graduate with 1+ years of hands-on experience in Software Engineering & Quality Assurance — experienced in <em>Appium, Robot Framework, JavaScript, Laravel, Kotlin, and Postman</em>.
               <span className="font-mono text-[rgb(255,87,34)]"> &lt;/System&gt;</span>
             </motion.p>
 
