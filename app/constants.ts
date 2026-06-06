@@ -8,9 +8,9 @@ export const WORK_EXPERIENCES = [
     current: true,
     responsibilities: [
       `Executed functional, regression, and smoke tests each sprint, ensuring stable releases and fewer production defects.`,
-      `Automated 50+ UI test cases using Appium (Robot Framework) for mobile apps, reducing regression effort.`,
-      `Performed manual UI & API testing, found 10+ issues in mobile apps.`,
-      `Collaborated with dev & product teams to resolve bugs, improve quality, and support staging releases.`,
+      `Automated 200+ UI test cases using Appium (Robot Framework) for mobile apps, reducing regression effort.`,
+      `Performed manual UI, Integration & API testing, found 10+ issues in mobile apps.`,
+      `Implemented CI/CD pipelines for automated test execution on remote devices, enabling continuous testing.`,
     ],
   },
   {

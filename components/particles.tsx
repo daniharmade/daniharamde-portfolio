@@ -100,7 +100,7 @@ interface ParticlesProps {
 
 export default function ParticlesComponent({ 
   className,
-  quantity = 40, // Default jumlah partikel
+  quantity = 20, // Default jumlah partikel (reduced for performance)
   staticity = 50, // Mengontrol kecepatan (semakin kecil angka, semakin cepat)
   color = '#FF5722' // Default: Brand Orange (rgb(255, 87, 34))
 }: ParticlesProps) {
@@ -119,7 +119,7 @@ export default function ParticlesComponent({
       id="tsparticles"
       init={particlesInit}
       options={{
-        fpsLimit: 120,
+        fpsLimit: 60,
         fullScreen: { enable: false },
         particles: {
           number: {
@@ -205,7 +205,7 @@ export default function ParticlesComponent({
             value: 'transparent',
           },
         },
-        detectRetina: true,
+        detectRetina: false,
       }}
     />
   );

@@ -61,7 +61,6 @@ const Certifications = () => {
                                         alt={`${cert.title} certificate`}
                                         fill
                                         className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
-                                        priority={index < 3}
                                     />
 
                                     <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent opacity-90" />

@@ -73,7 +73,6 @@ const ProjectCarousel = ({
                   alt={`${title} screenshot ${imageIndex + 1}`}
                   fill
                   className="object-cover"
-                  priority={imageIndex === 0}
                 />
                 <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60" />

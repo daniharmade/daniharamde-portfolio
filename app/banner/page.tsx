@@ -2,7 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { Github, Twitter, Linkedin } from 'lucide-react';
-import Particles from '@/components/particles';
+import dynamic from 'next/dynamic';
+const Particles = dynamic(() => import('@/components/particles'), { ssr: false });
 import Link from 'next/link';
 
 const socialLinks = [
@@ -33,6 +34,8 @@ export default function BannerPage() {
             <img
               src="https://github.com/daniharmade.png"
               alt="Profile"
+              loading="lazy"
+              decoding="async"
               className="w-full h-full object-cover"
             />
           </div>

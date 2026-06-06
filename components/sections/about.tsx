@@ -88,17 +88,16 @@ export default function About() {
 
             <div className="text-gray-300 space-y-4 leading-relaxed font-sans">
               <p>
-                Hi! I'm <strong className="text-white">Dani Harmade</strong>, an 
-                <span className="text-[rgb(255,87,34)] mx-1 font-medium">Information Systems Graduate</span> 
-                with hands-on experience in Software Engineering and Quality Assurance.
+                Hi! I'm <strong className="text-white">Dani Harmade</strong>, an
+                <span className="text-[rgb(255,87,34)] mx-1 font-medium">Information Systems graduate</span>
+                with 1 year of hands-on experience in Software Engineering and Software Quality Assurance.
               </p>
               <p>
-                I specialize in building and testing reliable applications across web and mobile, with expertise in 
-                <span className="text-white"> Laravel, JavaScript, Kotlin, and automation testing</span>. 
-                I’ve delivered impactful solutions—from optimizing backend performance to automating test cases that reduce regression effort.
+                Skilled in building and testing applications using
+                <span className="text-white"> Laravel, JavaScript, Kotlin, and Postman</span>, with experience in manual, automation, and API testing within Agile environments.
               </p>
               <p>
-                I focus on creating scalable, high-quality systems by bridging development and testing, ensuring every product is both functional and dependable.
+                Possess a strong understanding of system architecture, debugging, and end-to-end development, aiming to deliver high-quality and reliable applications.
               </p>
             </div>
             </div>
