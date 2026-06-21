@@ -223,7 +223,7 @@ export const PROJECTS = [
       'Laboratory Assistant Registration Information System is a web-based system for managing the digital registration and selection process of laboratory assistant candidates.',
     images: ['/project/laris.png', '/project/laris-Developer.png'],
     techStack: ['Laravel', 'Blade', 'JavaScript', 'Bootstrap', 'jQuery', 'MySQL', 'Tcpdf'],
-    liveDemo: 'https://laris.lab-si.uin-suska.ac.id/',
+    sourceCode: 'https://github.com/daniharmade/laris',
   },
 ];
 
